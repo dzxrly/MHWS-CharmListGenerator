@@ -228,7 +228,7 @@ if __name__ == "__main__":
         shutil.rmtree(OUTPUT_DIR)
     os.makedirs(OUTPUT_DIR)
     with open(os.path.join(OUTPUT_DIR, "skill_pool.json"), "w", encoding="utf-8") as f:
-        json.dump(skill_json, f, ensure_ascii=False, indent=4)
+        json.dump(skill_json, f, ensure_ascii=False)
     with open(os.path.join(OUTPUT_DIR, "amulet_pool.json"), "w", encoding="utf-8") as f:
-        json.dump(amulet_pool_json, f, ensure_ascii=False, indent=4)
+        json.dump(amulet_pool_json, f, ensure_ascii=False)
     print("[INFO] 已保存到 %s 目录下" % OUTPUT_DIR)
