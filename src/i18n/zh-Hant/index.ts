@@ -10,4 +10,11 @@ export default {
   clearAllSelectedConfirm: '您確定要清除所有已選擇的技能嗎？',
   confirmBtn: '確認',
   cancelBtn: '取消',
+  maxNumberInput: '護石數量上限',
+  maxNumberInputToolTip: '建議設置為 5000。過高的數值可能導致在網頁配裝器中匯入失敗。',
+  strictModeSwitch: '必須包含所有已選技能',
+  strictModeOption1: '啟用',
+  strictModeOption2: '停用',
+  strictModeSwitchTip: '建議在選擇 >= 3 個技能時啟用。選擇 < 3 個技能時將自動停用。',
+  searchBtn: '搜尋',
 };
