@@ -6,4 +6,8 @@ export default {
   loadingError: 'Loading error, please refresh the page and try again.',
   skillSelectPlaceholder: 'Select skills',
   selectedTips: 'Selected skills: ',
+  clearAllSelectedBtn: 'Clear all selected',
+  clearAllSelectedConfirm: 'Are you sure you want to clear all selected skills?',
+  confirmBtn: 'Confirm',
+  cancelBtn: 'Cancel',
 };

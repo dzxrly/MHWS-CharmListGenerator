@@ -36,7 +36,7 @@ const isLtMd = computed(() => $q.screen.lt.md);
           target="_blank"
           flat
           rounded
-          dense
+          :dense="isLtMd"
         >
           <template v-slot:default>
             <div class="row justify-between items-center">

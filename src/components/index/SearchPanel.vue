@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useQuasar } from 'quasar';
-import { computed, onMounted, ref, watch } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import type { SkillItem, SkillName, SkillPool } from 'src/interface/skill-pool';
 import LoadingPage from 'components/basic/LoadingPage.vue';
@@ -16,12 +16,10 @@ const selectedSkills = ref<
     skillId: string | number;
     skillName: string;
     selected: boolean;
-    disabled: boolean;
   }[]
 >([]);
 const tipsStickyProbe = ref<HTMLElement | null>(null);
 const isTipsSticky = ref(false);
-const maxSelectedSkills: number = 3;
 
 const isLtMd = computed(() => $q.screen.lt.md);
 const languageCode = computed(() => local.locale.value);
@@ -54,7 +52,6 @@ function fetchSkillPools() {
               skill.name.find((n: SkillName) => n.languageCode === languageCode.value)?.name ||
               'Unknown',
             selected: false,
-            disabled: false,
           });
         });
       });
@@ -71,20 +68,18 @@ function fetchSkillPools() {
     });
 }
 
-// check selected skills count and disable others if exceed maxSelectedSkills
-function updateSkillSelection() {
-  const selectedCount = selectedSkills.value.filter((skill) => skill.selected).length;
-  if (selectedCount >= maxSelectedSkills) {
+function clearAllSelected() {
+  $q.dialog({
+    title: t('clearAllSelectedBtn'),
+    message: t('clearAllSelectedConfirm'),
+    cancel: true,
+    persistent: true,
+    focus: 'cancel',
+  }).onOk(() => {
     selectedSkills.value.forEach((skill) => {
-      if (!skill.selected) {
-        skill.disabled = true;
-      }
+      skill.selected = false;
     });
-  } else {
-    selectedSkills.value.forEach((skill) => {
-      skill.disabled = false;
-    });
-  }
+  });
 }
 
 onMounted(() => {
@@ -102,14 +97,6 @@ onMounted(() => {
     observer.observe(tipsStickyProbe.value);
   }
 });
-
-watch(
-  () => selectedSkills.value.map((skill) => skill.selected),
-  () => {
-    updateSkillSelection();
-  },
-  { deep: true },
-);
 </script>
 
 <template>
@@ -126,6 +113,14 @@ watch(
       v-if="isSelected"
       class="sticky-desc full-width row justify-start items-center q-pa-md bg-primary text-white"
     >
+      <q-btn
+        class="q-mr-sm"
+        :label="t('clearAllSelectedBtn')"
+        outline
+        rounded
+        icon="delete_forever"
+        @click="clearAllSelected"
+      />
       <span>{{ t('selectedTips') }}</span>
       <span v-for="skill in selectedSkills.filter((n) => n.selected)" :key="skill.skillId">
         <q-chip
@@ -145,7 +140,6 @@ watch(
         <div v-if="!skillPoolLoading" class="row justify-start items-center full-width wrap">
           <div
             class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 q-pa-xs rounded-borders"
-            :class="{ 'checkbox-wrapper': !skill.disabled }"
             v-for="skill in selectedSkills"
             :key="skill.skillId"
           >
@@ -154,7 +148,6 @@ watch(
               v-model="skill.selected"
               :label="skill.skillName"
               color="primary"
-              :disable="skill.disabled"
             />
           </div>
         </div>
