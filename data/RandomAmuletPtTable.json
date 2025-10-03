@@ -1,0 +1,2864 @@
+[
+  {
+    "name": "app.user_data.RandomAmuletPtTable[249]",
+    "index": 249,
+    "objectTableIndex": 0,
+    "className": "app.user_data.RandomAmuletPtTable",
+    "fields": {
+      "_Values": [
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[2]",
+          "index": 2,
+          "fields": {
+            "_Index": 0,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[1]",
+                "index": 1,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[4]",
+          "index": 4,
+          "fields": {
+            "_Index": 1,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[3]",
+                "index": 3,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[6]",
+          "index": 6,
+          "fields": {
+            "_Index": 2,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[5]",
+                "index": 5,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[8]",
+          "index": 8,
+          "fields": {
+            "_Index": 3,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[7]",
+                "index": 7,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[10]",
+          "index": 10,
+          "fields": {
+            "_Index": 4,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[9]",
+                "index": 9,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[12]",
+          "index": 12,
+          "fields": {
+            "_Index": 5,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[11]",
+                "index": 11,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[14]",
+          "index": 14,
+          "fields": {
+            "_Index": 6,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[13]",
+                "index": 13,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[16]",
+          "index": 16,
+          "fields": {
+            "_Index": 7,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[15]",
+                "index": 15,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[18]",
+          "index": 18,
+          "fields": {
+            "_Index": 8,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[17]",
+                "index": 17,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[20]",
+          "index": 20,
+          "fields": {
+            "_Index": 9,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[19]",
+                "index": 19,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[22]",
+          "index": 22,
+          "fields": {
+            "_Index": 10,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[21]",
+                "index": 21,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[24]",
+          "index": 24,
+          "fields": {
+            "_Index": 11,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[23]",
+                "index": 23,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[26]",
+          "index": 26,
+          "fields": {
+            "_Index": 12,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[25]",
+                "index": 25,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[28]",
+          "index": 28,
+          "fields": {
+            "_Index": 13,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[27]",
+                "index": 27,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[30]",
+          "index": 30,
+          "fields": {
+            "_Index": 14,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[29]",
+                "index": 29,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[32]",
+          "index": 32,
+          "fields": {
+            "_Index": 15,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[31]",
+                "index": 31,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[34]",
+          "index": 34,
+          "fields": {
+            "_Index": 16,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[33]",
+                "index": 33,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[36]",
+          "index": 36,
+          "fields": {
+            "_Index": 17,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[35]",
+                "index": 35,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[38]",
+          "index": 38,
+          "fields": {
+            "_Index": 18,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[37]",
+                "index": 37,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[40]",
+          "index": 40,
+          "fields": {
+            "_Index": 19,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[39]",
+                "index": 39,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[42]",
+          "index": 42,
+          "fields": {
+            "_Index": 20,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[41]",
+                "index": 41,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[44]",
+          "index": 44,
+          "fields": {
+            "_Index": 21,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[43]",
+                "index": 43,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[46]",
+          "index": 46,
+          "fields": {
+            "_Index": 22,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[45]",
+                "index": 45,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[48]",
+          "index": 48,
+          "fields": {
+            "_Index": 23,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[47]",
+                "index": 47,
+                "fields": {
+                  "_Value": -1608406656
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[50]",
+          "index": 50,
+          "fields": {
+            "_Index": 24,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[49]",
+                "index": 49,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[52]",
+          "index": 52,
+          "fields": {
+            "_Index": 25,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[51]",
+                "index": 51,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[54]",
+          "index": 54,
+          "fields": {
+            "_Index": 26,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[53]",
+                "index": 53,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[56]",
+          "index": 56,
+          "fields": {
+            "_Index": 27,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[55]",
+                "index": 55,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[58]",
+          "index": 58,
+          "fields": {
+            "_Index": 28,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[57]",
+                "index": 57,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[60]",
+          "index": 60,
+          "fields": {
+            "_Index": 29,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[59]",
+                "index": 59,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[62]",
+          "index": 62,
+          "fields": {
+            "_Index": 30,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[61]",
+                "index": 61,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[64]",
+          "index": 64,
+          "fields": {
+            "_Index": 31,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[63]",
+                "index": 63,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[66]",
+          "index": 66,
+          "fields": {
+            "_Index": 32,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[65]",
+                "index": 65,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[68]",
+          "index": 68,
+          "fields": {
+            "_Index": 33,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[67]",
+                "index": 67,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[70]",
+          "index": 70,
+          "fields": {
+            "_Index": 34,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[69]",
+                "index": 69,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[72]",
+          "index": 72,
+          "fields": {
+            "_Index": 35,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[71]",
+                "index": 71,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[74]",
+          "index": 74,
+          "fields": {
+            "_Index": 36,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[73]",
+                "index": 73,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[76]",
+          "index": 76,
+          "fields": {
+            "_Index": 37,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[75]",
+                "index": 75,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[78]",
+          "index": 78,
+          "fields": {
+            "_Index": 38,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[77]",
+                "index": 77,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[80]",
+          "index": 80,
+          "fields": {
+            "_Index": 39,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[79]",
+                "index": 79,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[82]",
+          "index": 82,
+          "fields": {
+            "_Index": 40,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[81]",
+                "index": 81,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[84]",
+          "index": 84,
+          "fields": {
+            "_Index": 41,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[83]",
+                "index": 83,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[86]",
+          "index": 86,
+          "fields": {
+            "_Index": 42,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[85]",
+                "index": 85,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[88]",
+          "index": 88,
+          "fields": {
+            "_Index": 43,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[87]",
+                "index": 87,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[90]",
+          "index": 90,
+          "fields": {
+            "_Index": 44,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[89]",
+                "index": 89,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[92]",
+          "index": 92,
+          "fields": {
+            "_Index": 45,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[91]",
+                "index": 91,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[94]",
+          "index": 94,
+          "fields": {
+            "_Index": 46,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[93]",
+                "index": 93,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 1,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[96]",
+          "index": 96,
+          "fields": {
+            "_Index": 47,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[95]",
+                "index": 95,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 6,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[98]",
+          "index": 98,
+          "fields": {
+            "_Index": 48,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[97]",
+                "index": 97,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 6,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[100]",
+          "index": 100,
+          "fields": {
+            "_Index": 49,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[99]",
+                "index": 99,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 8,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[102]",
+          "index": 102,
+          "fields": {
+            "_Index": 50,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[101]",
+                "index": 101,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 9,
+            "_SkillPt_03": 0,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[104]",
+          "index": 104,
+          "fields": {
+            "_Index": 51,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[103]",
+                "index": 103,
+                "fields": {
+                  "_Value": 837371776
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[106]",
+          "index": 106,
+          "fields": {
+            "_Index": 52,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[105]",
+                "index": 105,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[108]",
+          "index": 108,
+          "fields": {
+            "_Index": 53,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[107]",
+                "index": 107,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[110]",
+          "index": 110,
+          "fields": {
+            "_Index": 54,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[109]",
+                "index": 109,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[112]",
+          "index": 112,
+          "fields": {
+            "_Index": 55,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[111]",
+                "index": 111,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[114]",
+          "index": 114,
+          "fields": {
+            "_Index": 56,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[113]",
+                "index": 113,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[116]",
+          "index": 116,
+          "fields": {
+            "_Index": 57,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[115]",
+                "index": 115,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[118]",
+          "index": 118,
+          "fields": {
+            "_Index": 58,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[117]",
+                "index": 117,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[120]",
+          "index": 120,
+          "fields": {
+            "_Index": 59,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[119]",
+                "index": 119,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[122]",
+          "index": 122,
+          "fields": {
+            "_Index": 60,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[121]",
+                "index": 121,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[124]",
+          "index": 124,
+          "fields": {
+            "_Index": 61,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[123]",
+                "index": 123,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[126]",
+          "index": 126,
+          "fields": {
+            "_Index": 62,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[125]",
+                "index": 125,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[128]",
+          "index": 128,
+          "fields": {
+            "_Index": 63,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[127]",
+                "index": 127,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[130]",
+          "index": 130,
+          "fields": {
+            "_Index": 64,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[129]",
+                "index": 129,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[132]",
+          "index": 132,
+          "fields": {
+            "_Index": 65,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[131]",
+                "index": 131,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[134]",
+          "index": 134,
+          "fields": {
+            "_Index": 66,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[133]",
+                "index": 133,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[136]",
+          "index": 136,
+          "fields": {
+            "_Index": 67,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[135]",
+                "index": 135,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[138]",
+          "index": 138,
+          "fields": {
+            "_Index": 68,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[137]",
+                "index": 137,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[140]",
+          "index": 140,
+          "fields": {
+            "_Index": 69,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[139]",
+                "index": 139,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[142]",
+          "index": 142,
+          "fields": {
+            "_Index": 70,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[141]",
+                "index": 141,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[144]",
+          "index": 144,
+          "fields": {
+            "_Index": 71,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[143]",
+                "index": 143,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[146]",
+          "index": 146,
+          "fields": {
+            "_Index": 72,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[145]",
+                "index": 145,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[148]",
+          "index": 148,
+          "fields": {
+            "_Index": 73,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[147]",
+                "index": 147,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[150]",
+          "index": 150,
+          "fields": {
+            "_Index": 74,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[149]",
+                "index": 149,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[152]",
+          "index": 152,
+          "fields": {
+            "_Index": 75,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[151]",
+                "index": 151,
+                "fields": {
+                  "_Value": -1382563840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[154]",
+          "index": 154,
+          "fields": {
+            "_Index": 76,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[153]",
+                "index": 153,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[156]",
+          "index": 156,
+          "fields": {
+            "_Index": 77,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[155]",
+                "index": 155,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[158]",
+          "index": 158,
+          "fields": {
+            "_Index": 78,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[157]",
+                "index": 157,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[160]",
+          "index": 160,
+          "fields": {
+            "_Index": 79,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[159]",
+                "index": 159,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[162]",
+          "index": 162,
+          "fields": {
+            "_Index": 80,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[161]",
+                "index": 161,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[164]",
+          "index": 164,
+          "fields": {
+            "_Index": 81,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[163]",
+                "index": 163,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[166]",
+          "index": 166,
+          "fields": {
+            "_Index": 82,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[165]",
+                "index": 165,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[168]",
+          "index": 168,
+          "fields": {
+            "_Index": 83,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[167]",
+                "index": 167,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[170]",
+          "index": 170,
+          "fields": {
+            "_Index": 84,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[169]",
+                "index": 169,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[172]",
+          "index": 172,
+          "fields": {
+            "_Index": 85,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[171]",
+                "index": 171,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[174]",
+          "index": 174,
+          "fields": {
+            "_Index": 86,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[173]",
+                "index": 173,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[176]",
+          "index": 176,
+          "fields": {
+            "_Index": 87,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[175]",
+                "index": 175,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[178]",
+          "index": 178,
+          "fields": {
+            "_Index": 88,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[177]",
+                "index": 177,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[180]",
+          "index": 180,
+          "fields": {
+            "_Index": 89,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[179]",
+                "index": 179,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[182]",
+          "index": 182,
+          "fields": {
+            "_Index": 90,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[181]",
+                "index": 181,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[184]",
+          "index": 184,
+          "fields": {
+            "_Index": 91,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[183]",
+                "index": 183,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[186]",
+          "index": 186,
+          "fields": {
+            "_Index": 92,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[185]",
+                "index": 185,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[188]",
+          "index": 188,
+          "fields": {
+            "_Index": 93,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[187]",
+                "index": 187,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[190]",
+          "index": 190,
+          "fields": {
+            "_Index": 94,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[189]",
+                "index": 189,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[192]",
+          "index": 192,
+          "fields": {
+            "_Index": 95,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[191]",
+                "index": 191,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[194]",
+          "index": 194,
+          "fields": {
+            "_Index": 96,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[193]",
+                "index": 193,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[196]",
+          "index": 196,
+          "fields": {
+            "_Index": 97,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[195]",
+                "index": 195,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[198]",
+          "index": 198,
+          "fields": {
+            "_Index": 98,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[197]",
+                "index": 197,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[200]",
+          "index": 200,
+          "fields": {
+            "_Index": 99,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[199]",
+                "index": 199,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[202]",
+          "index": 202,
+          "fields": {
+            "_Index": 100,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[201]",
+                "index": 201,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[204]",
+          "index": 204,
+          "fields": {
+            "_Index": 101,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[203]",
+                "index": 203,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[206]",
+          "index": 206,
+          "fields": {
+            "_Index": 102,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[205]",
+                "index": 205,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[208]",
+          "index": 208,
+          "fields": {
+            "_Index": 103,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[207]",
+                "index": 207,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[210]",
+          "index": 210,
+          "fields": {
+            "_Index": 104,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[209]",
+                "index": 209,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[212]",
+          "index": 212,
+          "fields": {
+            "_Index": 105,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[211]",
+                "index": 211,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[214]",
+          "index": 214,
+          "fields": {
+            "_Index": 106,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[213]",
+                "index": 213,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[216]",
+          "index": 216,
+          "fields": {
+            "_Index": 107,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[215]",
+                "index": 215,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[218]",
+          "index": 218,
+          "fields": {
+            "_Index": 108,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[217]",
+                "index": 217,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[220]",
+          "index": 220,
+          "fields": {
+            "_Index": 109,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[219]",
+                "index": 219,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[222]",
+          "index": 222,
+          "fields": {
+            "_Index": 110,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[221]",
+                "index": 221,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[224]",
+          "index": 224,
+          "fields": {
+            "_Index": 111,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[223]",
+                "index": 223,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[226]",
+          "index": 226,
+          "fields": {
+            "_Index": 112,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[225]",
+                "index": 225,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[228]",
+          "index": 228,
+          "fields": {
+            "_Index": 113,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[227]",
+                "index": 227,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[230]",
+          "index": 230,
+          "fields": {
+            "_Index": 114,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[229]",
+                "index": 229,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[232]",
+          "index": 232,
+          "fields": {
+            "_Index": 115,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[231]",
+                "index": 231,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[234]",
+          "index": 234,
+          "fields": {
+            "_Index": 116,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[233]",
+                "index": 233,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 4,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 1,
+            "_SlotPt": 13
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[236]",
+          "index": 236,
+          "fields": {
+            "_Index": 117,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[235]",
+                "index": 235,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 7,
+            "_SlotPt": 13
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[238]",
+          "index": 238,
+          "fields": {
+            "_Index": 118,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[237]",
+                "index": 237,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 8,
+            "_SlotPt": 13
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[240]",
+          "index": 240,
+          "fields": {
+            "_Index": 119,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[239]",
+                "index": 239,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 2,
+            "_SkillPt_02": 1,
+            "_SkillPt_03": 10,
+            "_SlotPt": 13
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[242]",
+          "index": 242,
+          "fields": {
+            "_Index": 120,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[241]",
+                "index": 241,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 7,
+            "_SkillPt_03": 0,
+            "_SlotPt": 13
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[244]",
+          "index": 244,
+          "fields": {
+            "_Index": 121,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[243]",
+                "index": 243,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 6,
+            "_SkillPt_03": 5,
+            "_SlotPt": 13
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[246]",
+          "index": 246,
+          "fields": {
+            "_Index": 122,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[245]",
+                "index": 245,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 8,
+            "_SkillPt_03": 5,
+            "_SlotPt": 13
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletPtTable.cData[248]",
+          "index": 248,
+          "fields": {
+            "_Index": 123,
+            "_AmuletType": {
+              "type": "app.ArmorDef.AmuletType_Serializable",
+              "value": {
+                "referenceType": "instance",
+                "name": "app.ArmorDef.AmuletType_Serializable[247]",
+                "index": 247,
+                "fields": {
+                  "_Value": 353607840
+                }
+              }
+            },
+            "_SkillPt_01": 3,
+            "_SkillPt_02": 10,
+            "_SkillPt_03": 0,
+            "_SlotPt": 13
+          }
+        }
+      ]
+    }
+  }
+]

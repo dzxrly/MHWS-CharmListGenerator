@@ -1,0 +1,3468 @@
+[
+  {
+    "name": "app.user_data.RandomAmuletLotSkillTable[289]",
+    "index": 289,
+    "objectTableIndex": 0,
+    "className": "app.user_data.RandomAmuletLotSkillTable",
+    "fields": {
+      "_Values": [
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[1]",
+          "index": 1,
+          "fields": {
+            "_Index": 0,
+            "_LotSkillType": 6544,
+            "_SkillType": 1,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[2]",
+          "index": 2,
+          "fields": {
+            "_Index": 1,
+            "_LotSkillType": 6544,
+            "_SkillType": -2096489472,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[3]",
+          "index": 3,
+          "fields": {
+            "_Index": 2,
+            "_LotSkillType": 6544,
+            "_SkillType": 313598432,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[4]",
+          "index": 4,
+          "fields": {
+            "_Index": 3,
+            "_LotSkillType": 6544,
+            "_SkillType": -562534336,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[5]",
+          "index": 5,
+          "fields": {
+            "_Index": 4,
+            "_LotSkillType": 6544,
+            "_SkillType": 508916704,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[6]",
+          "index": 6,
+          "fields": {
+            "_Index": 5,
+            "_LotSkillType": 6544,
+            "_SkillType": 1268070400,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[7]",
+          "index": 7,
+          "fields": {
+            "_Index": 6,
+            "_LotSkillType": 6544,
+            "_SkillType": 1452140672,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[8]",
+          "index": 8,
+          "fields": {
+            "_Index": 7,
+            "_LotSkillType": 6544,
+            "_SkillType": -776946176,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[9]",
+          "index": 9,
+          "fields": {
+            "_Index": 8,
+            "_LotSkillType": 6544,
+            "_SkillType": -1716324608,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[10]",
+          "index": 10,
+          "fields": {
+            "_Index": 9,
+            "_LotSkillType": 6544,
+            "_SkillType": -1863702144,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[11]",
+          "index": 11,
+          "fields": {
+            "_Index": 10,
+            "_LotSkillType": 6544,
+            "_SkillType": 166057120,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[12]",
+          "index": 12,
+          "fields": {
+            "_Index": 11,
+            "_LotSkillType": 6544,
+            "_SkillType": -844978880,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[13]",
+          "index": 13,
+          "fields": {
+            "_Index": 12,
+            "_LotSkillType": 6544,
+            "_SkillType": 1160639488,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[14]",
+          "index": 14,
+          "fields": {
+            "_Index": 13,
+            "_LotSkillType": 6544,
+            "_SkillType": 1050520384,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[15]",
+          "index": 15,
+          "fields": {
+            "_Index": 14,
+            "_LotSkillType": 6544,
+            "_SkillType": 1500129152,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[16]",
+          "index": 16,
+          "fields": {
+            "_Index": 15,
+            "_LotSkillType": 6544,
+            "_SkillType": 1594792704,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[17]",
+          "index": 17,
+          "fields": {
+            "_Index": 16,
+            "_LotSkillType": 6544,
+            "_SkillType": -420608864,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[18]",
+          "index": 18,
+          "fields": {
+            "_Index": 17,
+            "_LotSkillType": 6544,
+            "_SkillType": 397306144,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[19]",
+          "index": 19,
+          "fields": {
+            "_Index": 18,
+            "_LotSkillType": 6544,
+            "_SkillType": -283334048,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[20]",
+          "index": 20,
+          "fields": {
+            "_Index": 19,
+            "_LotSkillType": 6544,
+            "_SkillType": 691199232,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[21]",
+          "index": 21,
+          "fields": {
+            "_Index": 20,
+            "_LotSkillType": 6544,
+            "_SkillType": -307644128,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[22]",
+          "index": 22,
+          "fields": {
+            "_Index": 21,
+            "_LotSkillType": 6544,
+            "_SkillType": -1674114176,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[23]",
+          "index": 23,
+          "fields": {
+            "_Index": 22,
+            "_LotSkillType": 6544,
+            "_SkillType": -181127504,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[24]",
+          "index": 24,
+          "fields": {
+            "_Index": 23,
+            "_LotSkillType": 6544,
+            "_SkillType": 686533440,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[25]",
+          "index": 25,
+          "fields": {
+            "_Index": 24,
+            "_LotSkillType": 6544,
+            "_SkillType": -1946345856,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[26]",
+          "index": 26,
+          "fields": {
+            "_Index": 25,
+            "_LotSkillType": 6544,
+            "_SkillType": -893407296,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[27]",
+          "index": 27,
+          "fields": {
+            "_Index": 26,
+            "_LotSkillType": 6544,
+            "_SkillType": 1758661504,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[28]",
+          "index": 28,
+          "fields": {
+            "_Index": 27,
+            "_LotSkillType": 6544,
+            "_SkillType": -1237438336,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[29]",
+          "index": 29,
+          "fields": {
+            "_Index": 28,
+            "_LotSkillType": 6544,
+            "_SkillType": -596764096,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[30]",
+          "index": 30,
+          "fields": {
+            "_Index": 29,
+            "_LotSkillType": 6544,
+            "_SkillType": 802725120,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[31]",
+          "index": 31,
+          "fields": {
+            "_Index": 30,
+            "_LotSkillType": 6544,
+            "_SkillType": -160562336,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[32]",
+          "index": 32,
+          "fields": {
+            "_Index": 31,
+            "_LotSkillType": 6544,
+            "_SkillType": 1444935552,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[33]",
+          "index": 33,
+          "fields": {
+            "_Index": 32,
+            "_LotSkillType": 6544,
+            "_SkillType": -1961116288,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[34]",
+          "index": 34,
+          "fields": {
+            "_Index": 33,
+            "_LotSkillType": 6544,
+            "_SkillType": -1475134080,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[35]",
+          "index": 35,
+          "fields": {
+            "_Index": 34,
+            "_LotSkillType": 6544,
+            "_SkillType": -168922880,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[36]",
+          "index": 36,
+          "fields": {
+            "_Index": 35,
+            "_LotSkillType": 6544,
+            "_SkillType": 1613139840,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[37]",
+          "index": 37,
+          "fields": {
+            "_Index": 36,
+            "_LotSkillType": 6544,
+            "_SkillType": 1711950720,
+            "_SkillLv": 1,
+            "_SkillPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[38]",
+          "index": 38,
+          "fields": {
+            "_Index": 37,
+            "_LotSkillType": 6544,
+            "_SkillType": 1,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[39]",
+          "index": 39,
+          "fields": {
+            "_Index": 38,
+            "_LotSkillType": 6544,
+            "_SkillType": -2096489472,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[40]",
+          "index": 40,
+          "fields": {
+            "_Index": 39,
+            "_LotSkillType": 6544,
+            "_SkillType": 313598432,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[41]",
+          "index": 41,
+          "fields": {
+            "_Index": 40,
+            "_LotSkillType": 6544,
+            "_SkillType": -562534336,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[42]",
+          "index": 42,
+          "fields": {
+            "_Index": 41,
+            "_LotSkillType": 6544,
+            "_SkillType": 508916704,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[43]",
+          "index": 43,
+          "fields": {
+            "_Index": 42,
+            "_LotSkillType": 6544,
+            "_SkillType": 1268070400,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[44]",
+          "index": 44,
+          "fields": {
+            "_Index": 43,
+            "_LotSkillType": 6544,
+            "_SkillType": 1452140672,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[45]",
+          "index": 45,
+          "fields": {
+            "_Index": 44,
+            "_LotSkillType": 6544,
+            "_SkillType": -776946176,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[46]",
+          "index": 46,
+          "fields": {
+            "_Index": 45,
+            "_LotSkillType": 6544,
+            "_SkillType": -1716324608,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[47]",
+          "index": 47,
+          "fields": {
+            "_Index": 46,
+            "_LotSkillType": 6544,
+            "_SkillType": -1863702144,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[48]",
+          "index": 48,
+          "fields": {
+            "_Index": 47,
+            "_LotSkillType": 6544,
+            "_SkillType": 166057120,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[49]",
+          "index": 49,
+          "fields": {
+            "_Index": 48,
+            "_LotSkillType": 6544,
+            "_SkillType": -844978880,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[50]",
+          "index": 50,
+          "fields": {
+            "_Index": 49,
+            "_LotSkillType": 6544,
+            "_SkillType": 1160639488,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[51]",
+          "index": 51,
+          "fields": {
+            "_Index": 50,
+            "_LotSkillType": 6544,
+            "_SkillType": 1050520384,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[52]",
+          "index": 52,
+          "fields": {
+            "_Index": 51,
+            "_LotSkillType": 6544,
+            "_SkillType": 1500129152,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[53]",
+          "index": 53,
+          "fields": {
+            "_Index": 52,
+            "_LotSkillType": 6544,
+            "_SkillType": 1594792704,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[54]",
+          "index": 54,
+          "fields": {
+            "_Index": 53,
+            "_LotSkillType": 6544,
+            "_SkillType": -420608864,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[55]",
+          "index": 55,
+          "fields": {
+            "_Index": 54,
+            "_LotSkillType": 6544,
+            "_SkillType": 397306144,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[56]",
+          "index": 56,
+          "fields": {
+            "_Index": 55,
+            "_LotSkillType": 6544,
+            "_SkillType": -283334048,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[57]",
+          "index": 57,
+          "fields": {
+            "_Index": 56,
+            "_LotSkillType": 6544,
+            "_SkillType": 691199232,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[58]",
+          "index": 58,
+          "fields": {
+            "_Index": 57,
+            "_LotSkillType": 6544,
+            "_SkillType": -307644128,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[59]",
+          "index": 59,
+          "fields": {
+            "_Index": 58,
+            "_LotSkillType": 6544,
+            "_SkillType": -1674114176,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[60]",
+          "index": 60,
+          "fields": {
+            "_Index": 59,
+            "_LotSkillType": 6544,
+            "_SkillType": -181127504,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[61]",
+          "index": 61,
+          "fields": {
+            "_Index": 60,
+            "_LotSkillType": 6544,
+            "_SkillType": 686533440,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[62]",
+          "index": 62,
+          "fields": {
+            "_Index": 61,
+            "_LotSkillType": 6544,
+            "_SkillType": -1946345856,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[63]",
+          "index": 63,
+          "fields": {
+            "_Index": 62,
+            "_LotSkillType": 6544,
+            "_SkillType": -893407296,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[64]",
+          "index": 64,
+          "fields": {
+            "_Index": 63,
+            "_LotSkillType": 6544,
+            "_SkillType": 1758661504,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[65]",
+          "index": 65,
+          "fields": {
+            "_Index": 64,
+            "_LotSkillType": 6544,
+            "_SkillType": -1237438336,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[66]",
+          "index": 66,
+          "fields": {
+            "_Index": 65,
+            "_LotSkillType": 6544,
+            "_SkillType": -596764096,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[67]",
+          "index": 67,
+          "fields": {
+            "_Index": 66,
+            "_LotSkillType": 6544,
+            "_SkillType": 802725120,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[68]",
+          "index": 68,
+          "fields": {
+            "_Index": 67,
+            "_LotSkillType": 6544,
+            "_SkillType": -160562336,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[69]",
+          "index": 69,
+          "fields": {
+            "_Index": 68,
+            "_LotSkillType": 6544,
+            "_SkillType": 1444935552,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[70]",
+          "index": 70,
+          "fields": {
+            "_Index": 69,
+            "_LotSkillType": 6544,
+            "_SkillType": -1961116288,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[71]",
+          "index": 71,
+          "fields": {
+            "_Index": 70,
+            "_LotSkillType": 6544,
+            "_SkillType": -1475134080,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[72]",
+          "index": 72,
+          "fields": {
+            "_Index": 71,
+            "_LotSkillType": 6544,
+            "_SkillType": -168922880,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[73]",
+          "index": 73,
+          "fields": {
+            "_Index": 72,
+            "_LotSkillType": 6544,
+            "_SkillType": 1613139840,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[74]",
+          "index": 74,
+          "fields": {
+            "_Index": 73,
+            "_LotSkillType": 6544,
+            "_SkillType": 1711950720,
+            "_SkillLv": 2,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[75]",
+          "index": 75,
+          "fields": {
+            "_Index": 74,
+            "_LotSkillType": 6544,
+            "_SkillType": 919683456,
+            "_SkillLv": 1,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[76]",
+          "index": 76,
+          "fields": {
+            "_Index": 75,
+            "_LotSkillType": 6544,
+            "_SkillType": -2022542848,
+            "_SkillLv": 1,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[77]",
+          "index": 77,
+          "fields": {
+            "_Index": 76,
+            "_LotSkillType": 6544,
+            "_SkillType": -181774400,
+            "_SkillLv": 1,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[78]",
+          "index": 78,
+          "fields": {
+            "_Index": 77,
+            "_LotSkillType": 6544,
+            "_SkillType": 402237312,
+            "_SkillLv": 1,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[79]",
+          "index": 79,
+          "fields": {
+            "_Index": 78,
+            "_LotSkillType": 6544,
+            "_SkillType": 353114912,
+            "_SkillLv": 1,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[80]",
+          "index": 80,
+          "fields": {
+            "_Index": 79,
+            "_LotSkillType": 6544,
+            "_SkillType": -1629629184,
+            "_SkillLv": 1,
+            "_SkillPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[81]",
+          "index": 81,
+          "fields": {
+            "_Index": 80,
+            "_LotSkillType": 6544,
+            "_SkillType": 1,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[82]",
+          "index": 82,
+          "fields": {
+            "_Index": 81,
+            "_LotSkillType": 6544,
+            "_SkillType": -2096489472,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[83]",
+          "index": 83,
+          "fields": {
+            "_Index": 82,
+            "_LotSkillType": 6544,
+            "_SkillType": 313598432,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[84]",
+          "index": 84,
+          "fields": {
+            "_Index": 83,
+            "_LotSkillType": 6544,
+            "_SkillType": -562534336,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[85]",
+          "index": 85,
+          "fields": {
+            "_Index": 84,
+            "_LotSkillType": 6544,
+            "_SkillType": 508916704,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[86]",
+          "index": 86,
+          "fields": {
+            "_Index": 85,
+            "_LotSkillType": 6544,
+            "_SkillType": 1268070400,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[87]",
+          "index": 87,
+          "fields": {
+            "_Index": 86,
+            "_LotSkillType": 6544,
+            "_SkillType": 1452140672,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[88]",
+          "index": 88,
+          "fields": {
+            "_Index": 87,
+            "_LotSkillType": 6544,
+            "_SkillType": -776946176,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[89]",
+          "index": 89,
+          "fields": {
+            "_Index": 88,
+            "_LotSkillType": 6544,
+            "_SkillType": -1716324608,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[90]",
+          "index": 90,
+          "fields": {
+            "_Index": 89,
+            "_LotSkillType": 6544,
+            "_SkillType": -1863702144,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[91]",
+          "index": 91,
+          "fields": {
+            "_Index": 90,
+            "_LotSkillType": 6544,
+            "_SkillType": 166057120,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[92]",
+          "index": 92,
+          "fields": {
+            "_Index": 91,
+            "_LotSkillType": 6544,
+            "_SkillType": -844978880,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[93]",
+          "index": 93,
+          "fields": {
+            "_Index": 92,
+            "_LotSkillType": 6544,
+            "_SkillType": 1160639488,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[94]",
+          "index": 94,
+          "fields": {
+            "_Index": 93,
+            "_LotSkillType": 6544,
+            "_SkillType": 1050520384,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[95]",
+          "index": 95,
+          "fields": {
+            "_Index": 94,
+            "_LotSkillType": 6544,
+            "_SkillType": 1500129152,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[96]",
+          "index": 96,
+          "fields": {
+            "_Index": 95,
+            "_LotSkillType": 6544,
+            "_SkillType": 1594792704,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[97]",
+          "index": 97,
+          "fields": {
+            "_Index": 96,
+            "_LotSkillType": 6544,
+            "_SkillType": -420608864,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[98]",
+          "index": 98,
+          "fields": {
+            "_Index": 97,
+            "_LotSkillType": 6544,
+            "_SkillType": 397306144,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[99]",
+          "index": 99,
+          "fields": {
+            "_Index": 98,
+            "_LotSkillType": 6544,
+            "_SkillType": -283334048,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[100]",
+          "index": 100,
+          "fields": {
+            "_Index": 99,
+            "_LotSkillType": 6544,
+            "_SkillType": 691199232,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[101]",
+          "index": 101,
+          "fields": {
+            "_Index": 100,
+            "_LotSkillType": 6544,
+            "_SkillType": -307644128,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[102]",
+          "index": 102,
+          "fields": {
+            "_Index": 101,
+            "_LotSkillType": 6544,
+            "_SkillType": -1674114176,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[103]",
+          "index": 103,
+          "fields": {
+            "_Index": 102,
+            "_LotSkillType": 6544,
+            "_SkillType": -181127504,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[104]",
+          "index": 104,
+          "fields": {
+            "_Index": 103,
+            "_LotSkillType": 6544,
+            "_SkillType": 686533440,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[105]",
+          "index": 105,
+          "fields": {
+            "_Index": 104,
+            "_LotSkillType": 6544,
+            "_SkillType": -1946345856,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[106]",
+          "index": 106,
+          "fields": {
+            "_Index": 105,
+            "_LotSkillType": 6544,
+            "_SkillType": -893407296,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[107]",
+          "index": 107,
+          "fields": {
+            "_Index": 106,
+            "_LotSkillType": 6544,
+            "_SkillType": 1758661504,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[108]",
+          "index": 108,
+          "fields": {
+            "_Index": 107,
+            "_LotSkillType": 6544,
+            "_SkillType": -596764096,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[109]",
+          "index": 109,
+          "fields": {
+            "_Index": 108,
+            "_LotSkillType": 6544,
+            "_SkillType": -1961116288,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[110]",
+          "index": 110,
+          "fields": {
+            "_Index": 109,
+            "_LotSkillType": 6544,
+            "_SkillType": -1475134080,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[111]",
+          "index": 111,
+          "fields": {
+            "_Index": 110,
+            "_LotSkillType": 6544,
+            "_SkillType": -168922880,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[112]",
+          "index": 112,
+          "fields": {
+            "_Index": 111,
+            "_LotSkillType": 6544,
+            "_SkillType": 1613139840,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[113]",
+          "index": 113,
+          "fields": {
+            "_Index": 112,
+            "_LotSkillType": 6544,
+            "_SkillType": 1711950720,
+            "_SkillLv": 3,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[114]",
+          "index": 114,
+          "fields": {
+            "_Index": 113,
+            "_LotSkillType": 6544,
+            "_SkillType": 1389859584,
+            "_SkillLv": 1,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[115]",
+          "index": 115,
+          "fields": {
+            "_Index": 114,
+            "_LotSkillType": 6544,
+            "_SkillType": -1961297152,
+            "_SkillLv": 1,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[116]",
+          "index": 116,
+          "fields": {
+            "_Index": 115,
+            "_LotSkillType": 6544,
+            "_SkillType": 552982656,
+            "_SkillLv": 1,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[117]",
+          "index": 117,
+          "fields": {
+            "_Index": 116,
+            "_LotSkillType": 6544,
+            "_SkillType": -2123993856,
+            "_SkillLv": 1,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[118]",
+          "index": 118,
+          "fields": {
+            "_Index": 117,
+            "_LotSkillType": 6544,
+            "_SkillType": -1507579776,
+            "_SkillLv": 1,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[119]",
+          "index": 119,
+          "fields": {
+            "_Index": 118,
+            "_LotSkillType": 6544,
+            "_SkillType": -676967744,
+            "_SkillLv": 1,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[120]",
+          "index": 120,
+          "fields": {
+            "_Index": 119,
+            "_LotSkillType": 6544,
+            "_SkillType": 169998480,
+            "_SkillLv": 1,
+            "_SkillPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[121]",
+          "index": 121,
+          "fields": {
+            "_Index": 120,
+            "_LotSkillType": 6544,
+            "_SkillType": 1,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[122]",
+          "index": 122,
+          "fields": {
+            "_Index": 121,
+            "_LotSkillType": 6544,
+            "_SkillType": -2096489472,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[123]",
+          "index": 123,
+          "fields": {
+            "_Index": 122,
+            "_LotSkillType": 6544,
+            "_SkillType": -1607763456,
+            "_SkillLv": 1,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[124]",
+          "index": 124,
+          "fields": {
+            "_Index": 123,
+            "_LotSkillType": 6544,
+            "_SkillType": 313598432,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[125]",
+          "index": 125,
+          "fields": {
+            "_Index": 124,
+            "_LotSkillType": 6544,
+            "_SkillType": -562534336,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[126]",
+          "index": 126,
+          "fields": {
+            "_Index": 125,
+            "_LotSkillType": 6544,
+            "_SkillType": 508916704,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[127]",
+          "index": 127,
+          "fields": {
+            "_Index": 126,
+            "_LotSkillType": 6544,
+            "_SkillType": 1268070400,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[128]",
+          "index": 128,
+          "fields": {
+            "_Index": 127,
+            "_LotSkillType": 6544,
+            "_SkillType": 1452140672,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[129]",
+          "index": 129,
+          "fields": {
+            "_Index": 128,
+            "_LotSkillType": 6544,
+            "_SkillType": -776946176,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[130]",
+          "index": 130,
+          "fields": {
+            "_Index": 129,
+            "_LotSkillType": 6544,
+            "_SkillType": -1716324608,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[131]",
+          "index": 131,
+          "fields": {
+            "_Index": 130,
+            "_LotSkillType": 6544,
+            "_SkillType": -1863702144,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[132]",
+          "index": 132,
+          "fields": {
+            "_Index": 131,
+            "_LotSkillType": 6544,
+            "_SkillType": 166057120,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[133]",
+          "index": 133,
+          "fields": {
+            "_Index": 132,
+            "_LotSkillType": 6544,
+            "_SkillType": -844978880,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[134]",
+          "index": 134,
+          "fields": {
+            "_Index": 133,
+            "_LotSkillType": 6544,
+            "_SkillType": 1160639488,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[135]",
+          "index": 135,
+          "fields": {
+            "_Index": 134,
+            "_LotSkillType": 6544,
+            "_SkillType": 1050520384,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[136]",
+          "index": 136,
+          "fields": {
+            "_Index": 135,
+            "_LotSkillType": 6544,
+            "_SkillType": 1500129152,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[137]",
+          "index": 137,
+          "fields": {
+            "_Index": 136,
+            "_LotSkillType": 6544,
+            "_SkillType": -307644128,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[138]",
+          "index": 138,
+          "fields": {
+            "_Index": 137,
+            "_LotSkillType": 6544,
+            "_SkillType": -1674114176,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[139]",
+          "index": 139,
+          "fields": {
+            "_Index": 138,
+            "_LotSkillType": 6544,
+            "_SkillType": -420608864,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[140]",
+          "index": 140,
+          "fields": {
+            "_Index": 139,
+            "_LotSkillType": 6544,
+            "_SkillType": 1613139840,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[141]",
+          "index": 141,
+          "fields": {
+            "_Index": 140,
+            "_LotSkillType": 6544,
+            "_SkillType": 1711950720,
+            "_SkillLv": 2,
+            "_SkillPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[142]",
+          "index": 142,
+          "fields": {
+            "_Index": 141,
+            "_LotSkillType": 12687,
+            "_SkillType": -201445760,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[143]",
+          "index": 143,
+          "fields": {
+            "_Index": 142,
+            "_LotSkillType": 12687,
+            "_SkillType": -411441344,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[144]",
+          "index": 144,
+          "fields": {
+            "_Index": 143,
+            "_LotSkillType": 12687,
+            "_SkillType": 424768352,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[145]",
+          "index": 145,
+          "fields": {
+            "_Index": 144,
+            "_LotSkillType": 12687,
+            "_SkillType": -682586176,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[146]",
+          "index": 146,
+          "fields": {
+            "_Index": 145,
+            "_LotSkillType": 12687,
+            "_SkillType": -1689391744,
+            "_SkillLv": 2,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[147]",
+          "index": 147,
+          "fields": {
+            "_Index": 146,
+            "_LotSkillType": 12687,
+            "_SkillType": -1073401280,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[148]",
+          "index": 148,
+          "fields": {
+            "_Index": 147,
+            "_LotSkillType": 12687,
+            "_SkillType": 1077686656,
+            "_SkillLv": 2,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[149]",
+          "index": 149,
+          "fields": {
+            "_Index": 148,
+            "_LotSkillType": 12687,
+            "_SkillType": 1346775424,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[150]",
+          "index": 150,
+          "fields": {
+            "_Index": 149,
+            "_LotSkillType": 12687,
+            "_SkillType": -1235658624,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[151]",
+          "index": 151,
+          "fields": {
+            "_Index": 150,
+            "_LotSkillType": 12687,
+            "_SkillType": -1121468544,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[152]",
+          "index": 152,
+          "fields": {
+            "_Index": 151,
+            "_LotSkillType": 12687,
+            "_SkillType": 634068352,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[153]",
+          "index": 153,
+          "fields": {
+            "_Index": 152,
+            "_LotSkillType": 12687,
+            "_SkillType": -895828480,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[154]",
+          "index": 154,
+          "fields": {
+            "_Index": 153,
+            "_LotSkillType": 12687,
+            "_SkillType": -609509888,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[155]",
+          "index": 155,
+          "fields": {
+            "_Index": 154,
+            "_LotSkillType": 12687,
+            "_SkillType": 1425756032,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[156]",
+          "index": 156,
+          "fields": {
+            "_Index": 155,
+            "_LotSkillType": 12687,
+            "_SkillType": 383104832,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[157]",
+          "index": 157,
+          "fields": {
+            "_Index": 156,
+            "_LotSkillType": 12687,
+            "_SkillType": 652161472,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[158]",
+          "index": 158,
+          "fields": {
+            "_Index": 157,
+            "_LotSkillType": 12687,
+            "_SkillType": 2143068800,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[159]",
+          "index": 159,
+          "fields": {
+            "_Index": 158,
+            "_LotSkillType": 12687,
+            "_SkillType": -2125233152,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[160]",
+          "index": 160,
+          "fields": {
+            "_Index": 159,
+            "_LotSkillType": 12687,
+            "_SkillType": 1459579264,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[161]",
+          "index": 161,
+          "fields": {
+            "_Index": 160,
+            "_LotSkillType": 12687,
+            "_SkillType": 522288832,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[162]",
+          "index": 162,
+          "fields": {
+            "_Index": 161,
+            "_LotSkillType": 12687,
+            "_SkillType": -193031552,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[163]",
+          "index": 163,
+          "fields": {
+            "_Index": 162,
+            "_LotSkillType": 12687,
+            "_SkillType": 705317568,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[164]",
+          "index": 164,
+          "fields": {
+            "_Index": 163,
+            "_LotSkillType": 12687,
+            "_SkillType": 820385792,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[165]",
+          "index": 165,
+          "fields": {
+            "_Index": 164,
+            "_LotSkillType": 12687,
+            "_SkillType": 860517760,
+            "_SkillLv": 2,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[166]",
+          "index": 166,
+          "fields": {
+            "_Index": 165,
+            "_LotSkillType": 12687,
+            "_SkillType": 595870656,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[167]",
+          "index": 167,
+          "fields": {
+            "_Index": 166,
+            "_LotSkillType": 12687,
+            "_SkillType": -857543744,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[168]",
+          "index": 168,
+          "fields": {
+            "_Index": 167,
+            "_LotSkillType": 12687,
+            "_SkillType": -1684613760,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[169]",
+          "index": 169,
+          "fields": {
+            "_Index": 168,
+            "_LotSkillType": 12687,
+            "_SkillType": 894530496,
+            "_SkillLv": 2,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[170]",
+          "index": 170,
+          "fields": {
+            "_Index": 169,
+            "_LotSkillType": 12687,
+            "_SkillType": 850626240,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[171]",
+          "index": 171,
+          "fields": {
+            "_Index": 170,
+            "_LotSkillType": 12687,
+            "_SkillType": 742695104,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[172]",
+          "index": 172,
+          "fields": {
+            "_Index": 171,
+            "_LotSkillType": 12687,
+            "_SkillType": 2045149568,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[173]",
+          "index": 173,
+          "fields": {
+            "_Index": 172,
+            "_LotSkillType": 12687,
+            "_SkillType": 1940820864,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[174]",
+          "index": 174,
+          "fields": {
+            "_Index": 173,
+            "_LotSkillType": 12687,
+            "_SkillType": 1522518528,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[175]",
+          "index": 175,
+          "fields": {
+            "_Index": 174,
+            "_LotSkillType": 12687,
+            "_SkillType": -593005376,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[176]",
+          "index": 176,
+          "fields": {
+            "_Index": 175,
+            "_LotSkillType": 12687,
+            "_SkillType": 1472632704,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[177]",
+          "index": 177,
+          "fields": {
+            "_Index": 176,
+            "_LotSkillType": 12687,
+            "_SkillType": 1966172160,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[178]",
+          "index": 178,
+          "fields": {
+            "_Index": 177,
+            "_LotSkillType": 12687,
+            "_SkillType": -1662120192,
+            "_SkillLv": 1,
+            "_SkillPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[179]",
+          "index": 179,
+          "fields": {
+            "_Index": 178,
+            "_LotSkillType": 12687,
+            "_SkillType": -201445760,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[180]",
+          "index": 180,
+          "fields": {
+            "_Index": 179,
+            "_LotSkillType": 12687,
+            "_SkillType": -411441344,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[181]",
+          "index": 181,
+          "fields": {
+            "_Index": 180,
+            "_LotSkillType": 12687,
+            "_SkillType": 424768352,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[182]",
+          "index": 182,
+          "fields": {
+            "_Index": 181,
+            "_LotSkillType": 12687,
+            "_SkillType": -682586176,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[183]",
+          "index": 183,
+          "fields": {
+            "_Index": 182,
+            "_LotSkillType": 12687,
+            "_SkillType": -1689391744,
+            "_SkillLv": 3,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[184]",
+          "index": 184,
+          "fields": {
+            "_Index": 183,
+            "_LotSkillType": 12687,
+            "_SkillType": -1073401280,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[185]",
+          "index": 185,
+          "fields": {
+            "_Index": 184,
+            "_LotSkillType": 12687,
+            "_SkillType": 1077686656,
+            "_SkillLv": 3,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[186]",
+          "index": 186,
+          "fields": {
+            "_Index": 185,
+            "_LotSkillType": 12687,
+            "_SkillType": 1346775424,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[187]",
+          "index": 187,
+          "fields": {
+            "_Index": 186,
+            "_LotSkillType": 12687,
+            "_SkillType": -1235658624,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[188]",
+          "index": 188,
+          "fields": {
+            "_Index": 187,
+            "_LotSkillType": 12687,
+            "_SkillType": -1121468544,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[189]",
+          "index": 189,
+          "fields": {
+            "_Index": 188,
+            "_LotSkillType": 12687,
+            "_SkillType": 634068352,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[190]",
+          "index": 190,
+          "fields": {
+            "_Index": 189,
+            "_LotSkillType": 12687,
+            "_SkillType": -895828480,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[191]",
+          "index": 191,
+          "fields": {
+            "_Index": 190,
+            "_LotSkillType": 12687,
+            "_SkillType": -609509888,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[192]",
+          "index": 192,
+          "fields": {
+            "_Index": 191,
+            "_LotSkillType": 12687,
+            "_SkillType": 1425756032,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[193]",
+          "index": 193,
+          "fields": {
+            "_Index": 192,
+            "_LotSkillType": 12687,
+            "_SkillType": 383104832,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[194]",
+          "index": 194,
+          "fields": {
+            "_Index": 193,
+            "_LotSkillType": 12687,
+            "_SkillType": 652161472,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[195]",
+          "index": 195,
+          "fields": {
+            "_Index": 194,
+            "_LotSkillType": 12687,
+            "_SkillType": 2143068800,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[196]",
+          "index": 196,
+          "fields": {
+            "_Index": 195,
+            "_LotSkillType": 12687,
+            "_SkillType": -2125233152,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[197]",
+          "index": 197,
+          "fields": {
+            "_Index": 196,
+            "_LotSkillType": 12687,
+            "_SkillType": 1459579264,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[198]",
+          "index": 198,
+          "fields": {
+            "_Index": 197,
+            "_LotSkillType": 12687,
+            "_SkillType": 522288832,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[199]",
+          "index": 199,
+          "fields": {
+            "_Index": 198,
+            "_LotSkillType": 12687,
+            "_SkillType": -193031552,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[200]",
+          "index": 200,
+          "fields": {
+            "_Index": 199,
+            "_LotSkillType": 12687,
+            "_SkillType": 705317568,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[201]",
+          "index": 201,
+          "fields": {
+            "_Index": 200,
+            "_LotSkillType": 12687,
+            "_SkillType": 820385792,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[202]",
+          "index": 202,
+          "fields": {
+            "_Index": 201,
+            "_LotSkillType": 12687,
+            "_SkillType": 860517760,
+            "_SkillLv": 3,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[203]",
+          "index": 203,
+          "fields": {
+            "_Index": 202,
+            "_LotSkillType": 12687,
+            "_SkillType": 595870656,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[204]",
+          "index": 204,
+          "fields": {
+            "_Index": 203,
+            "_LotSkillType": 12687,
+            "_SkillType": -857543744,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[205]",
+          "index": 205,
+          "fields": {
+            "_Index": 204,
+            "_LotSkillType": 12687,
+            "_SkillType": -1684613760,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[206]",
+          "index": 206,
+          "fields": {
+            "_Index": 205,
+            "_LotSkillType": 12687,
+            "_SkillType": 894530496,
+            "_SkillLv": 3,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[207]",
+          "index": 207,
+          "fields": {
+            "_Index": 206,
+            "_LotSkillType": 12687,
+            "_SkillType": 850626240,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[208]",
+          "index": 208,
+          "fields": {
+            "_Index": 207,
+            "_LotSkillType": 12687,
+            "_SkillType": 742695104,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[209]",
+          "index": 209,
+          "fields": {
+            "_Index": 208,
+            "_LotSkillType": 12687,
+            "_SkillType": 2045149568,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[210]",
+          "index": 210,
+          "fields": {
+            "_Index": 209,
+            "_LotSkillType": 12687,
+            "_SkillType": 1940820864,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[211]",
+          "index": 211,
+          "fields": {
+            "_Index": 210,
+            "_LotSkillType": 12687,
+            "_SkillType": 1522518528,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[212]",
+          "index": 212,
+          "fields": {
+            "_Index": 211,
+            "_LotSkillType": 12687,
+            "_SkillType": -593005376,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[213]",
+          "index": 213,
+          "fields": {
+            "_Index": 212,
+            "_LotSkillType": 12687,
+            "_SkillType": 1472632704,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[214]",
+          "index": 214,
+          "fields": {
+            "_Index": 213,
+            "_LotSkillType": 12687,
+            "_SkillType": 1966172160,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[215]",
+          "index": 215,
+          "fields": {
+            "_Index": 214,
+            "_LotSkillType": 12687,
+            "_SkillType": -1662120192,
+            "_SkillLv": 2,
+            "_SkillPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[216]",
+          "index": 216,
+          "fields": {
+            "_Index": 215,
+            "_LotSkillType": 12687,
+            "_SkillType": -682586176,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[217]",
+          "index": 217,
+          "fields": {
+            "_Index": 216,
+            "_LotSkillType": 12687,
+            "_SkillType": -1689391744,
+            "_SkillLv": 4,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[218]",
+          "index": 218,
+          "fields": {
+            "_Index": 217,
+            "_LotSkillType": 12687,
+            "_SkillType": -1073401280,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[219]",
+          "index": 219,
+          "fields": {
+            "_Index": 218,
+            "_LotSkillType": 12687,
+            "_SkillType": 1077686656,
+            "_SkillLv": 4,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[220]",
+          "index": 220,
+          "fields": {
+            "_Index": 219,
+            "_LotSkillType": 12687,
+            "_SkillType": 1346775424,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[221]",
+          "index": 221,
+          "fields": {
+            "_Index": 220,
+            "_LotSkillType": 12687,
+            "_SkillType": -1235658624,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[222]",
+          "index": 222,
+          "fields": {
+            "_Index": 221,
+            "_LotSkillType": 12687,
+            "_SkillType": -1121468544,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[223]",
+          "index": 223,
+          "fields": {
+            "_Index": 222,
+            "_LotSkillType": 12687,
+            "_SkillType": 634068352,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[224]",
+          "index": 224,
+          "fields": {
+            "_Index": 223,
+            "_LotSkillType": 12687,
+            "_SkillType": -895828480,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[225]",
+          "index": 225,
+          "fields": {
+            "_Index": 224,
+            "_LotSkillType": 12687,
+            "_SkillType": -609509888,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[226]",
+          "index": 226,
+          "fields": {
+            "_Index": 225,
+            "_LotSkillType": 12687,
+            "_SkillType": 1425756032,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[227]",
+          "index": 227,
+          "fields": {
+            "_Index": 226,
+            "_LotSkillType": 12687,
+            "_SkillType": 383104832,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[228]",
+          "index": 228,
+          "fields": {
+            "_Index": 227,
+            "_LotSkillType": 12687,
+            "_SkillType": 652161472,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[229]",
+          "index": 229,
+          "fields": {
+            "_Index": 228,
+            "_LotSkillType": 12687,
+            "_SkillType": 2143068800,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[230]",
+          "index": 230,
+          "fields": {
+            "_Index": 229,
+            "_LotSkillType": 12687,
+            "_SkillType": -2125233152,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[231]",
+          "index": 231,
+          "fields": {
+            "_Index": 230,
+            "_LotSkillType": 12687,
+            "_SkillType": 1459579264,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[232]",
+          "index": 232,
+          "fields": {
+            "_Index": 231,
+            "_LotSkillType": 12687,
+            "_SkillType": 522288832,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[233]",
+          "index": 233,
+          "fields": {
+            "_Index": 232,
+            "_LotSkillType": 12687,
+            "_SkillType": -193031552,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[234]",
+          "index": 234,
+          "fields": {
+            "_Index": 233,
+            "_LotSkillType": 12687,
+            "_SkillType": 705317568,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[235]",
+          "index": 235,
+          "fields": {
+            "_Index": 234,
+            "_LotSkillType": 12687,
+            "_SkillType": 820385792,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[236]",
+          "index": 236,
+          "fields": {
+            "_Index": 235,
+            "_LotSkillType": 12687,
+            "_SkillType": 860517760,
+            "_SkillLv": 4,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[237]",
+          "index": 237,
+          "fields": {
+            "_Index": 236,
+            "_LotSkillType": 12687,
+            "_SkillType": 595870656,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[238]",
+          "index": 238,
+          "fields": {
+            "_Index": 237,
+            "_LotSkillType": 12687,
+            "_SkillType": -857543744,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[239]",
+          "index": 239,
+          "fields": {
+            "_Index": 238,
+            "_LotSkillType": 12687,
+            "_SkillType": -1684613760,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[240]",
+          "index": 240,
+          "fields": {
+            "_Index": 239,
+            "_LotSkillType": 12687,
+            "_SkillType": 894530496,
+            "_SkillLv": 4,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[241]",
+          "index": 241,
+          "fields": {
+            "_Index": 240,
+            "_LotSkillType": 12687,
+            "_SkillType": 850626240,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[242]",
+          "index": 242,
+          "fields": {
+            "_Index": 241,
+            "_LotSkillType": 12687,
+            "_SkillType": 742695104,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[243]",
+          "index": 243,
+          "fields": {
+            "_Index": 242,
+            "_LotSkillType": 12687,
+            "_SkillType": 2045149568,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[244]",
+          "index": 244,
+          "fields": {
+            "_Index": 243,
+            "_LotSkillType": 12687,
+            "_SkillType": 1940820864,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[245]",
+          "index": 245,
+          "fields": {
+            "_Index": 244,
+            "_LotSkillType": 12687,
+            "_SkillType": 1522518528,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[246]",
+          "index": 246,
+          "fields": {
+            "_Index": 245,
+            "_LotSkillType": 12687,
+            "_SkillType": -593005376,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[247]",
+          "index": 247,
+          "fields": {
+            "_Index": 246,
+            "_LotSkillType": 12687,
+            "_SkillType": 1472632704,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[248]",
+          "index": 248,
+          "fields": {
+            "_Index": 247,
+            "_LotSkillType": 12687,
+            "_SkillType": 1966172160,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[249]",
+          "index": 249,
+          "fields": {
+            "_Index": 248,
+            "_LotSkillType": 12687,
+            "_SkillType": -1662120192,
+            "_SkillLv": 3,
+            "_SkillPt": 7
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[250]",
+          "index": 250,
+          "fields": {
+            "_Index": 249,
+            "_LotSkillType": 12687,
+            "_SkillType": 2106877312,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[251]",
+          "index": 251,
+          "fields": {
+            "_Index": 250,
+            "_LotSkillType": 12687,
+            "_SkillType": 1359821952,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[252]",
+          "index": 252,
+          "fields": {
+            "_Index": 251,
+            "_LotSkillType": 12687,
+            "_SkillType": 632127488,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[253]",
+          "index": 253,
+          "fields": {
+            "_Index": 252,
+            "_LotSkillType": 12687,
+            "_SkillType": -315492576,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[254]",
+          "index": 254,
+          "fields": {
+            "_Index": 253,
+            "_LotSkillType": 12687,
+            "_SkillType": 192746944,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[255]",
+          "index": 255,
+          "fields": {
+            "_Index": 254,
+            "_LotSkillType": 12687,
+            "_SkillType": 144660544,
+            "_SkillLv": 2,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[256]",
+          "index": 256,
+          "fields": {
+            "_Index": 255,
+            "_LotSkillType": 12687,
+            "_SkillType": 673822976,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[257]",
+          "index": 257,
+          "fields": {
+            "_Index": 256,
+            "_LotSkillType": 12687,
+            "_SkillType": -568838336,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[258]",
+          "index": 258,
+          "fields": {
+            "_Index": 257,
+            "_LotSkillType": 12687,
+            "_SkillType": 1470960256,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[259]",
+          "index": 259,
+          "fields": {
+            "_Index": 258,
+            "_LotSkillType": 12687,
+            "_SkillType": -481419552,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[260]",
+          "index": 260,
+          "fields": {
+            "_Index": 259,
+            "_LotSkillType": 12687,
+            "_SkillType": 422666624,
+            "_SkillLv": 2,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[261]",
+          "index": 261,
+          "fields": {
+            "_Index": 260,
+            "_LotSkillType": 12687,
+            "_SkillType": 280489184,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[262]",
+          "index": 262,
+          "fields": {
+            "_Index": 261,
+            "_LotSkillType": 12687,
+            "_SkillType": -1700743296,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[263]",
+          "index": 263,
+          "fields": {
+            "_Index": 262,
+            "_LotSkillType": 12687,
+            "_SkillType": -171796848,
+            "_SkillLv": 1,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[264]",
+          "index": 264,
+          "fields": {
+            "_Index": 263,
+            "_LotSkillType": 12687,
+            "_SkillType": 469540352,
+            "_SkillLv": 2,
+            "_SkillPt": 8
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[265]",
+          "index": 265,
+          "fields": {
+            "_Index": 264,
+            "_LotSkillType": 12687,
+            "_SkillType": 2106877312,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[266]",
+          "index": 266,
+          "fields": {
+            "_Index": 265,
+            "_LotSkillType": 12687,
+            "_SkillType": 1359821952,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[267]",
+          "index": 267,
+          "fields": {
+            "_Index": 266,
+            "_LotSkillType": 12687,
+            "_SkillType": 632127488,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[268]",
+          "index": 268,
+          "fields": {
+            "_Index": 267,
+            "_LotSkillType": 12687,
+            "_SkillType": -315492576,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[269]",
+          "index": 269,
+          "fields": {
+            "_Index": 268,
+            "_LotSkillType": 12687,
+            "_SkillType": 192746944,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[270]",
+          "index": 270,
+          "fields": {
+            "_Index": 269,
+            "_LotSkillType": 12687,
+            "_SkillType": 144660544,
+            "_SkillLv": 3,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[271]",
+          "index": 271,
+          "fields": {
+            "_Index": 270,
+            "_LotSkillType": 12687,
+            "_SkillType": 673822976,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[272]",
+          "index": 272,
+          "fields": {
+            "_Index": 271,
+            "_LotSkillType": 12687,
+            "_SkillType": -568838336,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[273]",
+          "index": 273,
+          "fields": {
+            "_Index": 272,
+            "_LotSkillType": 12687,
+            "_SkillType": 1470960256,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[274]",
+          "index": 274,
+          "fields": {
+            "_Index": 273,
+            "_LotSkillType": 12687,
+            "_SkillType": -481419552,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[275]",
+          "index": 275,
+          "fields": {
+            "_Index": 274,
+            "_LotSkillType": 12687,
+            "_SkillType": 422666624,
+            "_SkillLv": 3,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[276]",
+          "index": 276,
+          "fields": {
+            "_Index": 275,
+            "_LotSkillType": 12687,
+            "_SkillType": 280489184,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[277]",
+          "index": 277,
+          "fields": {
+            "_Index": 276,
+            "_LotSkillType": 12687,
+            "_SkillType": -1700743296,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[278]",
+          "index": 278,
+          "fields": {
+            "_Index": 277,
+            "_LotSkillType": 12687,
+            "_SkillType": -171796848,
+            "_SkillLv": 2,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[279]",
+          "index": 279,
+          "fields": {
+            "_Index": 278,
+            "_LotSkillType": 12687,
+            "_SkillType": 469540352,
+            "_SkillLv": 3,
+            "_SkillPt": 9
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[280]",
+          "index": 280,
+          "fields": {
+            "_Index": 279,
+            "_LotSkillType": 12687,
+            "_SkillType": 1865909632,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[281]",
+          "index": 281,
+          "fields": {
+            "_Index": 280,
+            "_LotSkillType": 12687,
+            "_SkillType": -397570464,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[282]",
+          "index": 282,
+          "fields": {
+            "_Index": 281,
+            "_LotSkillType": 12687,
+            "_SkillType": 1763191040,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[283]",
+          "index": 283,
+          "fields": {
+            "_Index": 282,
+            "_LotSkillType": 12687,
+            "_SkillType": 27684744,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[284]",
+          "index": 284,
+          "fields": {
+            "_Index": 283,
+            "_LotSkillType": 12687,
+            "_SkillType": 565867136,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[285]",
+          "index": 285,
+          "fields": {
+            "_Index": 284,
+            "_LotSkillType": 12687,
+            "_SkillType": 1174975744,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[286]",
+          "index": 286,
+          "fields": {
+            "_Index": 285,
+            "_LotSkillType": 12687,
+            "_SkillType": -856322816,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[287]",
+          "index": 287,
+          "fields": {
+            "_Index": 286,
+            "_LotSkillType": 12687,
+            "_SkillType": 1489568384,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletLotSkillTable.cData[288]",
+          "index": 288,
+          "fields": {
+            "_Index": 287,
+            "_LotSkillType": 12687,
+            "_SkillType": 2083363072,
+            "_SkillLv": 1,
+            "_SkillPt": 10
+          }
+        }
+      ]
+    }
+  }
+]

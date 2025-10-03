@@ -1,0 +1,162 @@
+[
+  {
+    "name": "app.user_data.RandomAmuletAccSlot[11]",
+    "index": 11,
+    "objectTableIndex": 0,
+    "className": "app.user_data.RandomAmuletAccSlot",
+    "fields": {
+      "_Values": [
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[1]",
+          "index": 1,
+          "fields": {
+            "_Index": 0,
+            "_SlotType01": -1638455296,
+            "_SlotLevel01": 1,
+            "_SlotType02": -1638455296,
+            "_SlotLevel02": 0,
+            "_SlotType03": -1638455296,
+            "_SlotLevel03": 0,
+            "_SlotPt": 11
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[2]",
+          "index": 2,
+          "fields": {
+            "_Index": 1,
+            "_SlotType01": -1638455296,
+            "_SlotLevel01": 0,
+            "_SlotType02": -1638455296,
+            "_SlotLevel02": 0,
+            "_SlotType03": -1638455296,
+            "_SlotLevel03": 0,
+            "_SlotPt": 0
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[3]",
+          "index": 3,
+          "fields": {
+            "_Index": 2,
+            "_SlotType01": 1842954880,
+            "_SlotLevel01": 1,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 0,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 0,
+            "_SlotPt": 1
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[4]",
+          "index": 4,
+          "fields": {
+            "_Index": 3,
+            "_SlotType01": 1842954880,
+            "_SlotLevel01": 1,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 1,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 0,
+            "_SlotPt": 2
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[5]",
+          "index": 5,
+          "fields": {
+            "_Index": 4,
+            "_SlotType01": 1842954880,
+            "_SlotLevel01": 1,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 1,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 1,
+            "_SlotPt": 3
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[6]",
+          "index": 6,
+          "fields": {
+            "_Index": 5,
+            "_SlotType01": 1842954880,
+            "_SlotLevel01": 2,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 0,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 0,
+            "_SlotPt": 4
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[7]",
+          "index": 7,
+          "fields": {
+            "_Index": 6,
+            "_SlotType01": 1842954880,
+            "_SlotLevel01": 2,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 1,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 0,
+            "_SlotPt": 5
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[8]",
+          "index": 8,
+          "fields": {
+            "_Index": 7,
+            "_SlotType01": 1842954880,
+            "_SlotLevel01": 3,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 0,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 0,
+            "_SlotPt": 6
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[9]",
+          "index": 9,
+          "fields": {
+            "_Index": 8,
+            "_SlotType01": -1638455296,
+            "_SlotLevel01": 1,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 1,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 0,
+            "_SlotPt": 12
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.RandomAmuletAccSlot.cData[10]",
+          "index": 10,
+          "fields": {
+            "_Index": 9,
+            "_SlotType01": -1638455296,
+            "_SlotLevel01": 1,
+            "_SlotType02": 1842954880,
+            "_SlotLevel02": 1,
+            "_SlotType03": 1842954880,
+            "_SlotLevel03": 1,
+            "_SlotPt": 13
+          }
+        }
+      ]
+    }
+  }
+]
