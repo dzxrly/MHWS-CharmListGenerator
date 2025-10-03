@@ -57,8 +57,8 @@ def read_skill_json(
                     if _msg["guid"] == _skill["fields"]["_skillName"]:
                         return [
                             {
-                                "language_code": lang_code,
-                                "language_index_in_game": str(lang_index),
+                                "languageCode": lang_code,
+                                "languageIndexInGame": str(lang_index),
                                 "name": _msg["content"][lang_index],
                             }
                             for lang_code, lang_index in LANGUAGE_INDEX.items()
@@ -86,8 +86,8 @@ def read_skill_json(
             ]
     return [
         {
-            "skill_pt": _pt,
-            "skill_list": _json_data[_pt],
+            "skillPt": _pt,
+            "skillList": _json_data[_pt],
         }
         for _pt in _json_data.keys()
     ]
@@ -109,8 +109,8 @@ def read_amulet_rare_json(amulet_data_path: str, i18n_msg_path: str) -> list[dic
             if _msg["guid"] == _amulet["fields"]["_Name"]:
                 _name = [
                     {
-                        "language_code": lang_code,
-                        "language_index_in_game": str(lang_index),
+                        "languageCode": lang_code,
+                        "languageIndexInGame": str(lang_index),
                         "name": _msg["content"][lang_index],
                     }
                     for lang_code, lang_index in LANGUAGE_INDEX.items()
@@ -177,9 +177,9 @@ def read_amulet_pool_json(
                         else:
                             _equipment_slot.append(0)
                 return {
-                    "slot_pt": str(_slot["fields"]["_SlotPt"]),
-                    "weapon_slot": sorted(_weapon_slot, reverse=True),
-                    "equipment_slot": sorted(_equipment_slot, reverse=True),
+                    "slotPt": str(_slot["fields"]["_SlotPt"]),
+                    "weaponSlot": sorted(_weapon_slot, reverse=True),
+                    "equipmentSlot": sorted(_equipment_slot, reverse=True),
                 }
         raise ValueError(f"Amulet slot pt {pt} not found")
 
@@ -195,7 +195,7 @@ def read_amulet_pool_json(
         _pt_idx = 1
         for _key in _amulet_pool["fields"].keys():
             if _key.startswith("_SkillPt_"):
-                _info[f"skill_pt_{_pt_idx}"] = str(_amulet_pool["fields"][_key])
+                _info[f"skillPt{_pt_idx}"] = str(_amulet_pool["fields"][_key])
                 _pt_idx += 1
         _json_data.append(_info)
 
