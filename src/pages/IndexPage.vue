@@ -1,11 +1,15 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useQuasar } from 'quasar';
 import SearchPanel from 'components/index/SearchPanel.vue';
+import { type AmuletItem } from 'src/interface/amulet';
+import ResultsPanel from 'components/index/ResultsPanel.vue';
 
 const { t } = useI18n();
 const $q = useQuasar();
+
+const results = ref<AmuletItem[]>([]);
 
 const isLtMd = computed(() => $q.screen.lt.md);
 </script>
@@ -50,7 +54,13 @@ const isLtMd = computed(() => $q.screen.lt.md);
     <div
       class="search-block full-width column justify-center items-start bg-white rounded-borders q-pa-md q-mt-md"
     >
-      <SearchPanel />
+      <SearchPanel @change="(value) => (results = value)" />
+    </div>
+    <div
+      v-if="results.length > 0"
+      class="res-block full-width column justify-center items-start bg-white rounded-borders q-pa-md q-mt-md"
+    >
+      <ResultsPanel :results="results" />
     </div>
   </q-page>
 </template>

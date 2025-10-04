@@ -1,16 +1,20 @@
 <script setup lang="ts">
-import { useQuasar } from 'quasar';
+import { QSpinnerHourglass, useQuasar } from 'quasar';
 import { computed, onMounted, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
-import type { SelectedSkill, SkillItem, Skill } from 'src/interface/skill';
+import type { SelectedSkill, Skill, SkillItem } from 'src/interface/skill';
 import LoadingPage from 'components/basic/LoadingPage.vue';
 import { type Amulet, type AmuletItem } from 'src/interface/amulet';
 import { type ItemI18n } from 'src/interface/item-i18n';
-import { generateAmuletList, toArmorSearcherFormat } from 'src/utils/utils';
+import { generateAmuletList } from 'src/utils/utils';
 
 const { t } = useI18n();
 const local = useI18n({ useScope: 'local' });
 const $q = useQuasar();
+
+const emit = defineEmits<{
+  (e: 'change', value: AmuletItem[]): void;
+}>();
 
 const skillPoolList = ref<Skill[]>([]);
 const amuletPoolList = ref<Amulet[]>([]);
@@ -21,7 +25,6 @@ const tipsStickyProbe = ref<HTMLElement | null>(null);
 const isTipsSticky = ref(false);
 const maxNumber = ref(5000);
 const strictMode = ref(false);
-const searchResults = ref<AmuletItem[]>([]);
 const strictModeOptions = [
   { label: t('strictModeOption1'), value: true },
   { label: t('strictModeOption2'), value: false },
@@ -126,6 +129,10 @@ function clearAllSelected() {
 
 function searchAmuletList() {
   searching.value = true;
+  $q.loading.show({
+    spinner: QSpinnerHourglass,
+    message: t('loading'),
+  });
   generateAmuletList(
     skillPoolList.value,
     amuletPoolList.value,
@@ -135,15 +142,17 @@ function searchAmuletList() {
   )
     .then((data: AmuletItem[]) => {
       searching.value = false;
-      searchResults.value = data;
-      console.log(toArmorSearcherFormat(data, languageCode.value));
+      $q.loading.hide();
+      emit('change', data);
     })
     .catch((error) => {
       searching.value = false;
+      $q.loading.hide();
       $q.notify({
         type: 'negative',
         message: `${t('searchError')}: ${error.toString()}`,
       });
+      emit('change', []);
     });
 }
 
@@ -166,9 +175,12 @@ onMounted(() => {
 // watch selectedSkills number, if <3 then set strictMode to false
 watch(
   () => selectedSkills.value.filter((skill) => skill.selected).length,
-  (newVal) => {
-    if (newVal < 3) {
+  (newVal, oldValue) => {
+    if (newVal < 3 && oldValue >= 3) {
       strictMode.value = false;
+    }
+    if (newVal >= 3 && oldValue < 3) {
+      strictMode.value = true;
     }
   },
 );
@@ -193,6 +205,8 @@ watch(
         :label="t('clearAllSelectedBtn')"
         outline
         rounded
+        no-caps
+        no-wrap
         icon="delete_forever"
         @click="clearAllSelected"
       />
@@ -248,10 +262,17 @@ watch(
           color="primary"
         >
           <template v-slot:append>
-            <q-btn flat round icon="add" @click="maxNumber += 100" />
+            <q-btn no-caps no-wrap flat round icon="add" @click="maxNumber += 100" />
           </template>
           <template v-slot:prepend>
-            <q-btn flat round icon="remove" @click="maxNumber = Math.max(100, maxNumber - 100)" />
+            <q-btn
+              no-caps
+              no-wrap
+              flat
+              round
+              icon="remove"
+              @click="maxNumber = Math.max(100, maxNumber - 100)"
+            />
           </template>
         </q-input>
       </div>
@@ -288,18 +309,15 @@ watch(
       </div>
       <div class="row justify-center items-center full-width q-mt-md">
         <q-btn
+          no-caps
+          no-wrap
           class="full-width"
           :label="t('searchBtn')"
           color="primary"
           rounded
-          :loading="searching"
-          :disable="!isSelected"
+          :disable="!isSelected || searching"
           @click="searchAmuletList"
-        >
-          <template v-slot:loading>
-            <q-spinner color="white" />
-          </template>
-        </q-btn>
+        />
       </div>
     </div>
   </div>

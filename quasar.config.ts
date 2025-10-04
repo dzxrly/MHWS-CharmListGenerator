@@ -105,6 +105,9 @@ export default defineConfig((ctx) => {
     framework: {
       config: {
         notify: { position: 'top' },
+        loading: {
+          delay: 300,
+        },
       },
 
       // iconSet: 'material-icons', // Quasar icon set
@@ -118,7 +121,7 @@ export default defineConfig((ctx) => {
       // directives: [],
 
       // Quasar plugins
-      plugins: ['Dialog', 'Notify'],
+      plugins: ['Dialog', 'Notify', 'Loading'],
     },
 
     // animations: 'all', // --- includes all animations

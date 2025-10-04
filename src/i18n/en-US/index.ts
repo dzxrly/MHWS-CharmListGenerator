@@ -19,4 +19,17 @@ export default {
   strictModeSwitchTip:
     'Recommended to enable when selecting >= 3 skills. When < 3, it will be disabled automatically.',
   searchBtn: 'Search',
+  resultsTitle: 'Search Results',
+  resultsTitleCount: `Total count: `,
+  noResultsMsg: 'No amulets found. Please try adjusting your search criteria.',
+  exportBtn: 'Export',
+  exportSuccessMsg: 'Exported successfully!',
+  exportErrorMsg: 'Export failed. Please try again.',
+  cpToClipboardBtn: 'Copy to Clipboard',
+  cpToClipboardSuccessMsg: 'Copied to clipboard!',
+  cpToClipboardErrorMsg: 'Copy failed. Please try again.',
+  tooLargeTips: 'The result is too large, not supported to copy to clipboard.',
+  footerAuthor: 'By EggTargaryen',
+  footerRepo: 'Source Code',
+  footerLicense: 'MIT License',
 };

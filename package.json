@@ -1,6 +1,6 @@
 {
   "name": "charm-list-generator",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Charm List Generator",
   "productName": "Charm List Generator",
   "author": "Egg Targaryen <dzxrly2@gmail.com>",
