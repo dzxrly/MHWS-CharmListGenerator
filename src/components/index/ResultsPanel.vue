@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { computed, type PropType } from 'vue';
-import { type AmuletItem } from 'src/interface/amulet';
-import { useQuasar, copyToClipboard } from 'quasar';
+import { computed, type PropType, ref } from 'vue';
+import type { AmuletItem } from 'src/interface/amulet';
+import { copyToClipboard, useQuasar } from 'quasar';
 import { useI18n } from 'vue-i18n';
-import { type ItemI18n } from 'src/interface/item-i18n';
 import { toArmorSearcherFormat } from 'src/utils/utils';
+import { type ItemI18n } from 'src/interface/item-i18n';
 
 const props = defineProps({
   results: {
@@ -13,9 +13,20 @@ const props = defineProps({
   },
 });
 
+const exportLanguageOptions = [
+  { label: '日本語', value: 'ja-JP' },
+  { label: 'English', value: 'en-US' },
+  { label: '한국어', value: 'ko-KR' },
+  { label: '简体中文', value: 'zh-Hans' },
+  { label: '繁體中文', value: 'zh-Hant' },
+];
+
 const $q = useQuasar();
 const { t } = useI18n();
 const local = useI18n({ useScope: 'local' });
+const selectedExportLanguage = ref<string>(
+  exportLanguageOptions.find((n) => n.value === local.locale.value)?.value ?? local.locale.value,
+);
 
 const isLtMd = computed(() => $q.screen.lt.md);
 
@@ -26,7 +37,7 @@ function cpToClipBoard(resList: AmuletItem[]) {
       message: t('tooLargeTips'),
     });
   } else {
-    copyToClipboard(toArmorSearcherFormat(resList, local.locale.value).join('\n'))
+    copyToClipboard(toArmorSearcherFormat(resList, selectedExportLanguage.value).join('\n'))
       .then(() => {
         $q.notify({
           type: 'positive',
@@ -43,7 +54,7 @@ function cpToClipBoard(resList: AmuletItem[]) {
 }
 
 function downloadAsTxtFile(resList: AmuletItem[]) {
-  const blob = new Blob([toArmorSearcherFormat(resList, local.locale.value).join('\n')], {
+  const blob = new Blob([toArmorSearcherFormat(resList, selectedExportLanguage.value).join('\n')], {
     type: 'text/plain;charset=utf-8',
   });
   const url = URL.createObjectURL(blob);
@@ -59,15 +70,40 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
 
 <template>
   <div class="column justify-start items-center full-width">
+    <div class="row justify-between items-center full-width text-primary">
+      <div
+        class="row justify-start items-center"
+        :class="isLtMd ? 'text-body1 text-bold' : 'text-h6'"
+      >
+        <q-icon name="dashboard" />
+        <span class="q-ml-md">{{ t('resultsTitle') }}</span>
+        <span class="text-caption text-grey-8 q-ml-md">{{
+          `${t('resultsTitleCount')}${results.length}`
+        }}</span>
+      </div>
+      <div class="row justify-end items-center q-pr-md">
+        <q-select
+          v-model="selectedExportLanguage"
+          :options="exportLanguageOptions"
+          :label="t('exportLanguageSelectLabel')"
+          dense
+          outlined
+          rounded
+          emit-value
+          map-options
+        />
+      </div>
+    </div>
     <div
-      class="row justify-start items-center full-width text-primary"
-      :class="isLtMd ? 'text-body1 text-bold' : 'text-h6'"
+      v-if="results.length > 5000"
+      class="row justify-between items-center full-width q-mt-md q-px-md"
     >
-      <q-icon name="dashboard" />
-      <span class="q-ml-md">{{ t('resultsTitle') }}</span>
-      <span class="text-caption text-grey-8 q-ml-md">{{
-        `${t('resultsTitleCount')}${results.length}`
-      }}</span>
+      <div
+        class="rounded-borders bg-negative text-white row justify-start items-center full-width q-py-sm q-px-md"
+      >
+        <q-icon class="q-mr-md text-body1" color="white" name="warning_amber" />
+        <span class="text-body1">{{ t('tooLargeTips') }}</span>
+      </div>
     </div>
     <div class="row justify-between items-center full-width q-mt-md q-px-md">
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" :class="{ 'q-pr-md': !isLtMd }">
@@ -84,7 +120,10 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
           :disable="results.length > 5000"
         />
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" :class="{ 'q-pr-md': !isLtMd }">
+      <div
+        class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+        :class="isLtMd ? 'q-mt-md' : 'q-pl-md'"
+      >
         <q-btn
           no-caps
           no-wrap
@@ -110,7 +149,7 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
               <div class="row justify-start items-center full-width">
                 <q-badge>{{ item.rare.rare }}</q-badge>
                 <span class="q-ml-sm text-body1">{{
-                  item.rare.name.find((n: ItemI18n) => n.languageCode === local.locale.value)
+                  item.rare.name.find((n: ItemI18n) => n.languageCode === selectedExportLanguage)
                     ?.name ?? 'Unknown'
                 }}</span>
                 <div v-if="!isLtMd" class="row justify-center items-center no-wrap q-ml-md">

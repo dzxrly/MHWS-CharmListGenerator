@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
+import { computed } from 'vue';
+import { useQuasar } from 'quasar';
 
 const { t } = useI18n();
+const $q = useQuasar();
+
+const isLtMd = computed(() => $q.screen.lt.md);
 </script>
 
 <template>
@@ -18,6 +23,7 @@ const { t } = useI18n();
           target="_blank"
           :label="t('footerAuthor')"
           color="grey-8"
+          :size="isLtMd ? 'sm' : 'md'"
           rounded
           no-caps
           flat
@@ -30,6 +36,7 @@ const { t } = useI18n();
           target="_blank"
           :label="t('footerRepo')"
           color="grey-8"
+          :size="isLtMd ? 'sm' : 'md'"
           rounded
           flat
           dense
@@ -41,6 +48,7 @@ const { t } = useI18n();
           target="_blank"
           :label="t('footerLicense')"
           color="grey-8"
+          :size="isLtMd ? 'sm' : 'md'"
           rounded
           flat
           dense

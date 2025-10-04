@@ -25,6 +25,7 @@ export default {
   exportBtn: 'Export',
   exportSuccessMsg: 'Exported successfully!',
   exportErrorMsg: 'Export failed. Please try again.',
+  exportLanguageSelectLabel: 'Export Language',
   cpToClipboardBtn: 'Copy to Clipboard',
   cpToClipboardSuccessMsg: 'Copied to clipboard!',
   cpToClipboardErrorMsg: 'Copy failed. Please try again.',
