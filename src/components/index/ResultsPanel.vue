@@ -144,8 +144,21 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
         v-slot="{ item, index }"
       >
         <q-item :key="index">
-          <div class="row justify-between items-center full-width">
-            <div class="column col-grow justify-center items-center">
+          <div class="row justify-between items-center full-width" :class="{ reverse: !isLtMd }">
+            <div class="col col-shrink row justify-center items-center q-pr-md">
+              <q-btn
+                no-caps
+                no-wrap
+                color="primary"
+                flat
+                :rounded="!isLtMd"
+                :round="isLtMd"
+                icon="file_copy"
+                :label="isLtMd ? '' : t('cpToClipboardBtn')"
+                @click="cpToClipBoard([item])"
+              />
+            </div>
+            <div class="col column justify-center items-center">
               <div class="row justify-start items-center full-width">
                 <q-badge>{{ item.rare.rare }}</q-badge>
                 <span class="q-ml-sm text-body1">{{
@@ -189,23 +202,10 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
               >
                 <span v-for="(skill, index) in item.skills" :key="index">
                   <span v-if="skill !== undefined" class="q-mr-md text-grey-8">{{
-                    `Lv.${skill.level} ${skill.name.find((n: ItemI18n) => n.languageCode === local.locale.value)?.name ?? 'Unknown'}`
+                    `Lv.${skill.level} ${skill.name.find((n: ItemI18n) => n.languageCode === selectedExportLanguage)?.name ?? 'Unknown'}`
                   }}</span>
                 </span>
               </div>
-            </div>
-            <div class="row justify-center items-center">
-              <q-btn
-                no-caps
-                no-wrap
-                color="primary"
-                flat
-                :rounded="!isLtMd"
-                :round="isLtMd"
-                icon="file_copy"
-                :label="isLtMd ? '' : t('cpToClipboardBtn')"
-                @click="cpToClipBoard([item])"
-              />
             </div>
           </div>
         </q-item>

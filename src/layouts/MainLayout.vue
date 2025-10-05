@@ -16,7 +16,7 @@ const isLtMd = computed(() => $q.screen.lt.md);
     </q-page-container>
 
     <q-footer class="bg-transparent">
-      <div class="row full-width justify-center items-center">
+      <div class="row full-width justify-center items-center q-mb-sm">
         <q-btn
           class="q-mx-sm"
           href="https://eggtargaryen.com"
