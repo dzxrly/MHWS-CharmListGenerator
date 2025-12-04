@@ -39,6 +39,11 @@ const selectedSkillsCountLess3 = computed(
 const tipsBorderRadius = computed(() => {
   return isTipsSticky.value ? '0px 0px 19px 19px' : '19px';
 });
+const tipsBoxShadow = computed(() => {
+  return isTipsSticky.value
+    ? '0 5px 5px -3px #0003,0 8px 10px 1px #00000024,0 3px 14px 2px #0000001f'
+    : '0px 0px 0px 0px';
+});
 
 function fetchSkillPools() {
   dataLoading.value = true;
@@ -330,6 +335,7 @@ watch(
     top: 0
     z-index: 1
     border-radius: v-bind(tipsBorderRadius)
+    box-shadow: v-bind(tipsBoxShadow)
     transition: all 0.15s ease-in-out
 
   .checkbox-wrapper

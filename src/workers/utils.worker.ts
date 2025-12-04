@@ -209,5 +209,12 @@ function calculateAmuletList(
     }
   });
 
+  finalResult.sort((a, b) => getRareLevel(b.rare) - getRareLevel(a.rare));
+
   return finalResult;
+}
+
+function getRareLevel(rare: AmuletRare): number {
+  const match = rare.rare.match(/\d+/);
+  return match ? parseInt(match[0], 10) : 0;
 }
