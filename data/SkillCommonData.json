@@ -1,7 +1,7 @@
 [
   {
-    "name": "app.user_data.SkillCommonData[213]",
-    "index": 213,
+    "name": "app.user_data.SkillCommonData[217]",
+    "index": 217,
     "objectTableIndex": 0,
     "className": "app.user_data.SkillCommonData",
     "fields": {
@@ -2868,7 +2868,7 @@
             "_SkillIconType": 3,
             "_skillName": "0c9d8d5a-3c7a-44c6-8228-c81f36a944c0",
             "_skillExplain": "967c327a-4ab1-4dc0-b0d8-f68dda0833c4",
-            "_SortId": 113
+            "_SortId": 114
           }
         },
         {
@@ -3026,6 +3026,36 @@
           "name": "app.user_data.SkillCommonData.cData[202]",
           "index": 202,
           "fields": {
+            "_Index": 208,
+            "_skillId": 30815,
+            "_skillType": 441208832,
+            "_skillCategory": 1,
+            "_SkillIconType": 14,
+            "_skillName": "f028f404-c2b2-42fb-b056-eab31972aeb8",
+            "_skillExplain": "e999e561-347b-4a8f-b8c3-67897aaa5311",
+            "_SortId": 574
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.SkillCommonData.cData[203]",
+          "index": 203,
+          "fields": {
+            "_Index": 209,
+            "_skillId": 11543,
+            "_skillType": 441208832,
+            "_skillCategory": 0,
+            "_SkillIconType": 0,
+            "_skillName": "824e35d7-d8a0-4eb6-b990-fab5c523cdff",
+            "_skillExplain": "5de9a4ff-596d-4c02-b3d7-f4ab6dd17ad0",
+            "_SortId": 0
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.SkillCommonData.cData[204]",
+          "index": 204,
+          "fields": {
             "_Index": 210,
             "_skillId": 2237,
             "_skillType": 441208832,
@@ -3038,8 +3068,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[203]",
-          "index": 203,
+          "name": "app.user_data.SkillCommonData.cData[205]",
+          "index": 205,
           "fields": {
             "_Index": 211,
             "_skillId": 25348,
@@ -3053,8 +3083,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[204]",
-          "index": 204,
+          "name": "app.user_data.SkillCommonData.cData[206]",
+          "index": 206,
           "fields": {
             "_Index": 212,
             "_skillId": 28385,
@@ -3068,8 +3098,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[205]",
-          "index": 205,
+          "name": "app.user_data.SkillCommonData.cData[207]",
+          "index": 207,
           "fields": {
             "_Index": 213,
             "_skillId": 1826,
@@ -3083,8 +3113,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[206]",
-          "index": 206,
+          "name": "app.user_data.SkillCommonData.cData[208]",
+          "index": 208,
           "fields": {
             "_Index": 214,
             "_skillId": 16931,
@@ -3093,13 +3123,13 @@
             "_SkillIconType": 1,
             "_skillName": "fba7fa4b-bcb7-4be2-80bc-093e9c4a88ff",
             "_skillExplain": "6084413d-1bb9-4820-815f-0cdb223fae53",
-            "_SortId": 114
+            "_SortId": 115
           }
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[207]",
-          "index": 207,
+          "name": "app.user_data.SkillCommonData.cData[209]",
+          "index": 209,
           "fields": {
             "_Index": 215,
             "_skillId": 30828,
@@ -3113,8 +3143,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[208]",
-          "index": 208,
+          "name": "app.user_data.SkillCommonData.cData[210]",
+          "index": 210,
           "fields": {
             "_Index": 216,
             "_skillId": 3813,
@@ -3128,8 +3158,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[209]",
-          "index": 209,
+          "name": "app.user_data.SkillCommonData.cData[211]",
+          "index": 211,
           "fields": {
             "_Index": 217,
             "_skillId": 7506,
@@ -3143,8 +3173,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[210]",
-          "index": 210,
+          "name": "app.user_data.SkillCommonData.cData[212]",
+          "index": 212,
           "fields": {
             "_Index": 218,
             "_skillId": 31998,
@@ -3158,8 +3188,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[211]",
-          "index": 211,
+          "name": "app.user_data.SkillCommonData.cData[213]",
+          "index": 213,
           "fields": {
             "_Index": 219,
             "_skillId": 24531,
@@ -3173,8 +3203,8 @@
         },
         {
           "referenceType": "instance",
-          "name": "app.user_data.SkillCommonData.cData[212]",
-          "index": 212,
+          "name": "app.user_data.SkillCommonData.cData[214]",
+          "index": 214,
           "fields": {
             "_Index": 220,
             "_skillId": 31540,
@@ -3184,6 +3214,36 @@
             "_skillName": "14a5e974-08c7-4623-b302-3161e2f0f0c3",
             "_skillExplain": "436b7a5e-ed45-42cf-9070-cc5133c51a6a",
             "_SortId": 569
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.SkillCommonData.cData[215]",
+          "index": 215,
+          "fields": {
+            "_Index": 221,
+            "_skillId": 30554,
+            "_skillType": 441208832,
+            "_skillCategory": 3,
+            "_SkillIconType": 12,
+            "_skillName": "065c69d1-82d9-41a7-bdf0-557d6a43c435",
+            "_skillExplain": "e6d6fca9-4baa-4eb5-b1fb-4b7abfc29131",
+            "_SortId": 479
+          }
+        },
+        {
+          "referenceType": "instance",
+          "name": "app.user_data.SkillCommonData.cData[216]",
+          "index": 216,
+          "fields": {
+            "_Index": 222,
+            "_skillId": 5590,
+            "_skillType": 441208832,
+            "_skillCategory": 1,
+            "_SkillIconType": 14,
+            "_skillName": "f1547177-7006-41ae-9341-f59550d7f628",
+            "_skillExplain": "51be0542-bf24-4214-8d2d-5a5b90e9e41a",
+            "_SortId": 570
           }
         }
       ]
