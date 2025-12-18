@@ -52,13 +52,13 @@ const isLtMd = computed(() => $q.screen.lt.md);
       </div>
     </div>
     <div
-      class="search-block full-width column justify-center items-start bg-white rounded-borders q-pa-md q-mt-md"
+      class="search-block full-width column justify-center items-start bg-white rounded-borders q-mt-md"
     >
       <SearchPanel @change="(value) => (results = value)" />
     </div>
     <div
       v-if="results.length > 0"
-      class="res-block full-width column justify-center items-start bg-white rounded-borders q-pa-md q-mt-md"
+      class="res-block full-width column justify-center items-start bg-white rounded-borders q-mt-md"
     >
       <ResultsPanel :results="results" />
     </div>

@@ -160,7 +160,12 @@ function searchAmuletList() {
     .then((data: AmuletItem[]) => {
       searching.value = false;
       $q.loading.hide();
-      emit('change', data);
+      if (data.length === 0) {
+        $q.notify({
+          type: 'negative',
+          message: t('noResultsFound'),
+        });
+      } else emit('change', data);
     })
     .catch((error) => {
       searching.value = false;
@@ -206,37 +211,43 @@ watch(
 <template>
   <div class="search-panel-wrapper column justify-start items-start full-width">
     <div
-      class="row justify-start items-center full-width text-primary"
+      class="row justify-start items-center full-width text-primary q-px-md q-pt-md"
       :class="[isLtMd ? 'text-body1 text-bold' : 'text-h6', isSelected ? 'q-mb-md' : '']"
     >
       <q-icon name="list_alt" />
       <span class="q-ml-md">{{ t('skillSelectPlaceholder') }}</span>
     </div>
     <div ref="tipsStickyProbe" style="height: 1px"></div>
-    <div v-if="isSelected" class="sticky-desc full-width row justify-start items-center q-pa-md">
-      <q-btn
-        class="q-mr-sm"
-        :label="t('clearAllSelectedBtn')"
-        rounded
-        no-caps
-        no-wrap
-        unelevated
-        icon="delete_forever"
-        color="negative"
-        @click="clearAllSelected"
-      />
-      <span>{{ t('selectedTips') }}</span>
-      <span v-for="skill in selectedSkills.filter((n) => n.selected)" :key="skill.skillId">
-        <q-chip
-          class="q-ml-sm"
-          :color="isTipsSticky ? 'primary' : 'white'"
-          :text-color="isTipsSticky ? 'white' : 'primary'"
-          removable
-          @remove="skill.selected = false"
-        >
-          {{ skill.skillName }}
-        </q-chip>
-      </span>
+    <div
+      v-if="isSelected"
+      class="sticky-desc-wrapper full-width"
+      :class="{ 'q-px-md': !isTipsSticky || !isLtMd }"
+    >
+      <div class="sticky-des full-width row justify-start items-center q-pa-md">
+        <q-btn
+          class="q-mr-sm"
+          :label="t('clearAllSelectedBtn')"
+          rounded
+          no-caps
+          no-wrap
+          unelevated
+          icon="delete_forever"
+          color="negative"
+          @click="clearAllSelected"
+        />
+        <span>{{ t('selectedTips') }}</span>
+        <span v-for="skill in selectedSkills.filter((n) => n.selected)" :key="skill.skillId">
+          <q-chip
+            class="q-ml-sm"
+            :color="isTipsSticky ? 'primary' : 'white'"
+            :text-color="isTipsSticky ? 'white' : 'primary'"
+            removable
+            @remove="skill.selected = false"
+          >
+            {{ skill.skillName }}
+          </q-chip>
+        </span>
+      </div>
     </div>
     <div class="row justify-center items-center full-width q-mt-md">
       <transition enter-active-class="fadeIn" leave-active-class="fadeOut">
@@ -258,7 +269,7 @@ watch(
       </transition>
     </div>
     <div
-      class="column justify-start items-center full-width q-mt-md"
+      class="column justify-start items-center full-width q-my-md"
       :class="isLtMd ? 'q-px-md' : 'q-px-xl'"
     >
       <div class="row justify-between items-center full-width">
@@ -340,19 +351,20 @@ watch(
 
 <style scoped lang="sass">
 .search-panel-wrapper
-  .sticky-desc
+  .sticky-desc-wrapper
     position: sticky
     top: 0
     z-index: 1
-    color: v-bind(tipsTextColor)
-    border-radius: v-bind(tipsBorderRadius)
-    box-shadow: v-bind(tipsBoxShadow)
-    transition: all 0.15s ease-in-out
-    background-color: v-bind(tipsBgColor)
-    @supports (backdrop-filter: blur(5px)) or (-webkit-backdrop-filter: blur(5px))
-      background-color: v-bind(tipsBgColorWithBlurSupport)
-      backdrop-filter: blur(5px)
-      -webkit-backdrop-filter: blur(5px)
+    .sticky-des
+      color: v-bind(tipsTextColor)
+      border-radius: v-bind(tipsBorderRadius)
+      box-shadow: v-bind(tipsBoxShadow)
+      transition: all 0.15s ease-in-out
+      background-color: v-bind(tipsBgColor)
+      @supports (backdrop-filter: blur(5px)) or (-webkit-backdrop-filter: blur(5px))
+        background-color: v-bind(tipsBgColorWithBlurSupport)
+        backdrop-filter: blur(5px)
+        -webkit-backdrop-filter: blur(5px)
 
   .checkbox-wrapper
     background-color: rgba($primary, 0)

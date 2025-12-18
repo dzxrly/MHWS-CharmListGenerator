@@ -70,7 +70,7 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
 
 <template>
   <div class="column justify-start items-center full-width">
-    <div class="row justify-between items-center full-width text-primary">
+    <div class="row justify-between items-center full-width text-primary q-px-md q-pt-md">
       <div
         class="row justify-start items-center"
         :class="isLtMd ? 'text-body1 text-bold' : 'text-h6'"
@@ -81,7 +81,7 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
           `${t('resultsTitleCount')}${results.length}`
         }}</span>
       </div>
-      <div class="row justify-end items-center q-pr-md">
+      <div class="row justify-end items-center">
         <q-select
           v-model="selectedExportLanguage"
           :options="exportLanguageOptions"
@@ -213,5 +213,3 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
     </div>
   </div>
 </template>
-
-<style scoped lang="sass"></style>

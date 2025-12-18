@@ -33,4 +33,5 @@ export default {
   footerAuthor: 'By EggTargaryen',
   footerRepo: 'Source Code',
   footerLicense: 'MIT License',
+  noResultsFound: 'No results found.',
 };

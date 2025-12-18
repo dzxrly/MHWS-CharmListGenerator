@@ -31,4 +31,5 @@ export default {
   footerAuthor: 'By EggTargaryen',
   footerRepo: '原始碼',
   footerLicense: 'MIT 授權',
+  noResultsFound: '未找到結果',
 };
