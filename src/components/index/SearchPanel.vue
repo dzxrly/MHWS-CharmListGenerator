@@ -44,6 +44,15 @@ const tipsBoxShadow = computed(() => {
     ? '0 5px 5px -3px #0003,0 8px 10px 1px #00000024,0 3px 14px 2px #0000001f'
     : '0px 0px 0px 0px';
 });
+const tipsBgColorWithBlurSupport = computed(() => {
+  return isTipsSticky.value ? 'rgba(238,238,238,0.7)' : 'rgba(25,118,210,1)';
+});
+const tipsBgColor = computed(() => {
+  return isTipsSticky.value ? 'rgba(238,238,238,1)' : 'rgba(25,118,210,1)';
+});
+const tipsTextColor = computed(() => {
+  return isTipsSticky.value ? '#1976d2' : '#FFFFFF';
+});
 
 function fetchSkillPools() {
   dataLoading.value = true;
@@ -120,10 +129,13 @@ function clearAllSelected() {
     ok: {
       label: t('confirmBtn'),
       color: 'negative',
+      unelevated: true,
+      flat: true,
     },
     cancel: {
       label: t('cancelBtn'),
       color: 'primary',
+      unelevated: true,
     },
   }).onOk(() => {
     selectedSkills.value.forEach((skill) => {
@@ -201,27 +213,24 @@ watch(
       <span class="q-ml-md">{{ t('skillSelectPlaceholder') }}</span>
     </div>
     <div ref="tipsStickyProbe" style="height: 1px"></div>
-    <div
-      v-if="isSelected"
-      class="sticky-desc full-width row justify-start items-center q-pa-md bg-primary text-white"
-    >
+    <div v-if="isSelected" class="sticky-desc full-width row justify-start items-center q-pa-md">
       <q-btn
         class="q-mr-sm"
         :label="t('clearAllSelectedBtn')"
-        outline
         rounded
         no-caps
         no-wrap
+        unelevated
         icon="delete_forever"
+        color="negative"
         @click="clearAllSelected"
       />
       <span>{{ t('selectedTips') }}</span>
       <span v-for="skill in selectedSkills.filter((n) => n.selected)" :key="skill.skillId">
         <q-chip
           class="q-ml-sm"
-          color="white"
-          text-color="primary"
-          outline
+          :color="isTipsSticky ? 'primary' : 'white'"
+          :text-color="isTipsSticky ? 'white' : 'primary'"
           removable
           @remove="skill.selected = false"
         >
@@ -319,6 +328,7 @@ watch(
           class="full-width"
           :label="t('searchBtn')"
           color="primary"
+          outline
           rounded
           :disable="!isSelected || searching"
           @click="searchAmuletList"
@@ -334,9 +344,15 @@ watch(
     position: sticky
     top: 0
     z-index: 1
+    color: v-bind(tipsTextColor)
     border-radius: v-bind(tipsBorderRadius)
     box-shadow: v-bind(tipsBoxShadow)
     transition: all 0.15s ease-in-out
+    background-color: v-bind(tipsBgColor)
+    @supports (backdrop-filter: blur(5px)) or (-webkit-backdrop-filter: blur(5px))
+      background-color: v-bind(tipsBgColorWithBlurSupport)
+      backdrop-filter: blur(5px)
+      -webkit-backdrop-filter: blur(5px)
 
   .checkbox-wrapper
     background-color: rgba($primary, 0)
