@@ -1,33 +1,32 @@
 import { type AmuletItem } from 'src/interface/amulet';
 import { type SkillItem } from 'src/interface/skill';
 
-// 内部使用的包装类型，用于缓存计算出的特征，避免重复运算
+// 内部使用的包装类型
 interface ProcessedAmulet {
-  original: AmuletItem; // 保留原始对象的引用
-  originalIndex: number; // 原始索引，用于最后恢复排序
-  skillMap: Map<string, number>; // 技能ID -> 总等级
-  skillTypesKey: string; // 技能类型指纹 (e.g. "101,105")
-  skillCount: number; // 有效技能数量
+  original: AmuletItem;
+  originalIndex: number;
+  skillMap: Map<string, number>;
+  skillTypesKey: string; // 仅包含ID (e.g. "101,105") -> 用于第一轮
+  skillValuesKey: string; // 包含ID和等级 (e.g. "101:2,105:1") -> 用于第二轮
+  skillCount: number;
 }
 
 /**
  * 筛选护石算法 (Pareto Optimal Filtering)
- * * 规则：
- * 1. 忽略 Rare (稀有度)。
- * 2. Slot (孔位) 作为分组依据，只有孔位完全相同的护石才会互相竞争。
- * 3. 在同组内，保留所有“非受支配”的护石。
- * * @param amulets 原始护石列表
- * @returns 筛选后的最佳护石列表 (AmuletItem[])
+ * * 流程：
+ * 1. 预处理：计算特征。
+ * 2. 第一轮 (Step 2)：固定孔位 (Slot)，筛选出技能最强的护石。
+ * 3. 第二轮 (Step 4)：固定技能 (Skill Types + Levels)，筛选出孔位最强的护石。
  */
 export function filterBestAmulets(amulets: AmuletItem[]): AmuletItem[] {
   if (!amulets || amulets.length === 0) return [];
 
   // --- 步骤 1: 预处理与分组 (Preprocessing & Grouping) ---
   // Key = WeaponSlot + EquipmentSlot 的序列化字符串
-  const groups = new Map<string, ProcessedAmulet[]>();
+  const slotGroups = new Map<string, ProcessedAmulet[]>();
 
   amulets.forEach((item, index) => {
-    // 1.1 数据清洗：移除无效技能 (undefined)，累加重复技能等级
+    // 1.1 数据清洗
     const validSkills = (item.skills || []).filter((s): s is SkillItem => !!s);
 
     const skillMap = new Map<string, number>();
@@ -35,53 +34,53 @@ export function filterBestAmulets(amulets: AmuletItem[]): AmuletItem[] {
 
     for (const s of validSkills) {
       const sId = String(s.id);
-      // 兼容 level 可能是字符串的情况
       const sLv = typeof s.level === 'string' ? parseInt(s.level, 10) : s.level;
 
       const currentLv = skillMap.get(sId) || 0;
       skillMap.set(sId, currentLv + sLv);
 
-      // 记录ID用于生成指纹 (仅在第一次遇到时添加)
       if (currentLv === 0) {
         skillIds.push(sId);
       }
     }
 
     // 1.2 生成技能特征
-    skillIds.sort(); // 排序以确保 "A,B" 和 "B,A" 生成相同的 Key
+    skillIds.sort();
+
+    // 第一轮用：只看技能种类
     const skillTypesKey = skillIds.join(',');
 
-    // 1.3 生成分组 Key (核心属性 A+B)
-    // 忽略 rare，仅使用 weaponSlot 和 equipmentSlot
+    // 第二轮用：看技能种类+数值 (e.g., "1:2|5:1")
+    const skillValuesKey = skillIds.map((id) => `${id}:${skillMap.get(id)}`).join('|');
+
+    // 1.3 生成分组 Key (基于孔位)
     const slotKey = `${JSON.stringify(item.slot.weaponSlot)}|${JSON.stringify(item.slot.equipmentSlot)}`;
 
-    // 1.4 包装对象
     const processed: ProcessedAmulet = {
       original: item,
       originalIndex: index,
       skillMap,
       skillTypesKey,
+      skillValuesKey, // 新增
       skillCount: skillIds.length,
     };
 
-    if (!groups.has(slotKey)) {
-      groups.set(slotKey, []);
+    if (!slotGroups.has(slotKey)) {
+      slotGroups.set(slotKey, []);
     }
-    groups.get(slotKey)!.push(processed);
+    slotGroups.get(slotKey)!.push(processed);
   });
 
-  const survivors: ProcessedAmulet[] = [];
+  const step1Survivors: ProcessedAmulet[] = [];
 
-  // --- 步骤 2: 组内筛选 (Intra-Group Filtering) ---
-  for (const groupItems of groups.values()) {
-    // 极速路径：如果该孔位模版下只有一个护石，直接保留
+  // --- 步骤 2: 基于孔位分组，筛选最佳技能 (原有逻辑) ---
+  for (const groupItems of slotGroups.values()) {
     if (groupItems.length === 1) {
-      survivors.push(groupItems[0]!);
+      step1Survivors.push(groupItems[0]!);
       continue;
     }
 
     // 2.1 按“技能类型”二次聚类
-    // 将技能组合完全一样（比如都是 攻击+看破）的放在一起
     const sameTypeBuckets = new Map<string, ProcessedAmulet[]>();
     for (const p of groupItems) {
       if (!sameTypeBuckets.has(p.skillTypesKey)) {
@@ -90,110 +89,172 @@ export function filterBestAmulets(amulets: AmuletItem[]): AmuletItem[] {
       sameTypeBuckets.get(p.skillTypesKey)!.push(p);
     }
 
-    // 2.2 同类型筛选：保留数值上的帕累托前沿
-    // 此时不考虑“不同技能组合”之间的关系，只看“同技能”下的数值压制
+    // 2.2 同类型筛选 (数值帕累托)
     const typeSurvivors: ProcessedAmulet[] = [];
     for (const items of sameTypeBuckets.values()) {
       typeSurvivors.push(...getSameTypeParetoFrontier(items));
     }
 
-    // 2.3 跨类型筛选：处理子集支配关系
-    // 策略：按技能数量降序排列 (3 -> 2 -> 1 -> 0)
-    // 只有技能多的组合，才有可能支配技能少的组合。
+    // 2.3 跨类型筛选 (子集支配)
     typeSurvivors.sort((a, b) => b.skillCount - a.skillCount);
-
     const groupSurvivors: ProcessedAmulet[] = [];
 
     for (const candidate of typeSurvivors) {
       let isDominated = false;
-
-      // 遍历已经存活的、技能数量 >= candidate 的强者
       for (const superior of groupSurvivors) {
-        // 如果技能数相同，之前 2.2 已经处理过同类型数值比较了。
-        // 如果这里技能数相同但类型不同（如 {A,B} vs {A,C}），则互不支配，跳过。
         if (superior.skillCount === candidate.skillCount) continue;
-
-        // 检查子集支配关系：
-        // superior 是否拥有 candidate 的所有技能，且等级均不低于 candidate？
         if (isSubsetAndDominated(candidate, superior)) {
           isDominated = true;
-          break; // 被支配，淘汰
+          break;
         }
       }
-
       if (!isDominated) {
         groupSurvivors.push(candidate);
       }
     }
-
-    // 将本组幸存者加入总列表
-    survivors.push(...groupSurvivors);
+    step1Survivors.push(...groupSurvivors);
   }
 
-  // --- 步骤 3: 结果整理与拆包 (Formatting & Unpacking) ---
+  // --- 步骤 3: 准备第二轮筛选 (基于技能分组) ---
+  // 此时 step1Survivors 里的护石，已经是各孔位模版下的技能最优解。
+  // 现在我们要跨孔位比较：如果技能完全一样，保留孔位更好的。
 
-  // 3.1 恢复原始顺序 (可选，但推荐，保证UI列表不乱跳)
-  survivors.sort((a, b) => a.originalIndex - b.originalIndex);
+  const skillValueGroups = new Map<string, ProcessedAmulet[]>();
+  for (const p of step1Survivors) {
+    if (!skillValueGroups.has(p.skillValuesKey)) {
+      skillValueGroups.set(p.skillValuesKey, []);
+    }
+    skillValueGroups.get(p.skillValuesKey)!.push(p);
+  }
 
-  // 3.2 拆包：将 ProcessedAmulet 映射回 AmuletItem
-  return survivors.map((p) => p.original);
+  const finalSurvivors: ProcessedAmulet[] = [];
+
+  // --- 步骤 4: 基于技能分组，筛选最佳孔位 (新增逻辑) ---
+  for (const groupItems of skillValueGroups.values()) {
+    // 只有1个直接保留
+    if (groupItems.length === 1) {
+      finalSurvivors.push(groupItems[0]!);
+      continue;
+    }
+
+    // 在同技能组内，进行孔位的 Pareto 筛选
+    const survivorsInGroup = getSlotParetoFrontier(groupItems);
+    finalSurvivors.push(...survivorsInGroup);
+  }
+
+  // --- 步骤 5: 结果整理 ---
+  finalSurvivors.sort((a, b) => a.originalIndex - b.originalIndex);
+  return finalSurvivors.map((p) => p.original);
 }
 
-/**
- * 辅助：同类型筛选
- * 当技能 ID 集合完全一致时，只需比较等级。
- */
+// =========================================================================
+//  Helpers - Skill Logic (第一轮相关)
+// =========================================================================
+
 function getSameTypeParetoFrontier(items: ProcessedAmulet[]): ProcessedAmulet[] {
   if (items.length === 1) return items;
+  const result: ProcessedAmulet[] = [];
+  for (let i = 0; i < items.length; i++) {
+    let dominated = false;
+    for (let j = 0; j < items.length; j++) {
+      if (i === j) continue;
+      if (checkSkillDominance(items[j]!, items[i]!)) {
+        dominated = true;
+        break;
+      }
+    }
+    if (!dominated) result.push(items[i]!);
+  }
+  return result;
+}
 
+function checkSkillDominance(sup: ProcessedAmulet, sub: ProcessedAmulet): boolean {
+  for (const [skillId, subLevel] of sub.skillMap) {
+    const supLevel = sup.skillMap.get(skillId);
+    if (supLevel === undefined) return false;
+    if (supLevel < subLevel) return false;
+  }
+  return true;
+}
+
+function isSubsetAndDominated(sub: ProcessedAmulet, sup: ProcessedAmulet): boolean {
+  return checkSkillDominance(sup, sub);
+}
+
+// =========================================================================
+//  Helpers - Slot Logic (第二轮相关)
+// =========================================================================
+
+/**
+ * 针对相同技能组合的护石，筛选出孔位最优的集合
+ */
+function getSlotParetoFrontier(items: ProcessedAmulet[]): ProcessedAmulet[] {
   const result: ProcessedAmulet[] = [];
 
   for (let i = 0; i < items.length; i++) {
     let dominated = false;
     for (let j = 0; j < items.length; j++) {
       if (i === j) continue;
-      // 如果 j 支配 i，则 i 淘汰
-      if (checkDominance(items[j]!, items[i]!)) {
+
+      // 检查 j 是否支配 i (孔位上 j 是否 >= i)
+      if (checkFullSlotDominance(items[j]!, items[i]!)) {
         dominated = true;
         break;
       }
     }
     if (!dominated) {
-      result.push(items[i]!); // 这里也加上 ! 以防万一
+      result.push(items[i]!);
     }
   }
   return result;
 }
 
 /**
- * 核心支配逻辑检查
- * 判断 A (sup) 是否支配 B (sub)
- * 支配定义：
- * 1. A 包含 B 的所有技能 Key。
- * 2. 对于 B 拥有的每个技能，A 的等级 >= B 的等级。
- * 3. (隐含) 如果 A 等级全等于 B 且 A 技能数也等于 B，为了去重，我们也视为 A 支配 B (保留前者)。
+ * 检查 slotSup 是否在孔位上完全支配 slotSub
+ * 规则：Weapon 和 Equipment 必须分别满足支配条件 (>=)，且不能完全相等(去重在外部逻辑，或此处视为支配)
+ * 根据帕累托过滤惯例，如果 A >= B，则 B 被淘汰。
  */
-function checkDominance(sup: ProcessedAmulet, sub: ProcessedAmulet): boolean {
-  // 遍历弱者(sub)的所有技能，检查强者(sup)是否满足条件
-  for (const [skillId, subLevel] of sub.skillMap) {
-    const supLevel = sup.skillMap.get(skillId);
+function checkFullSlotDominance(sup: ProcessedAmulet, sub: ProcessedAmulet): boolean {
+  const wDom = isSlotBetterOrEqual(sup.original.slot.weaponSlot, sub.original.slot.weaponSlot);
+  const eDom = isSlotBetterOrEqual(
+    sup.original.slot.equipmentSlot,
+    sub.original.slot.equipmentSlot,
+  );
 
-    // 如果 sup 没有这个技能，无法支配
-    if (supLevel === undefined) return false;
-
-    // 如果 sup 等级低于 sub，无法支配
-    if (supLevel < subLevel) return false;
-  }
-
-  return true;
+  // 必须两方面都 >= 才能算支配
+  return wDom && eDom;
 }
 
 /**
- * 跨类型支配检查
- * 判断 sub (子集) 是否被 sup (超集) 支配
- * 前提：sup.skillCount > sub.skillCount
+ * 核心孔位对比逻辑
+ * 对比规则：
+ * 1. 数组长度一致 (均为 number[])。
+ * 2. 只有非0个数相同，才能对比；否则返回 false (不可比)。
+ * 3. 在非0个数相同的前提下，每一位都 >= 目标，才返回 true。
+ * @param arrSup 强者数组
+ * @param arrSub 弱者数组
  */
-function isSubsetAndDominated(sub: ProcessedAmulet, sup: ProcessedAmulet): boolean {
-  // 逻辑与 checkDominance 一致，只是调用场景不同
-  return checkDominance(sup, sub);
+function isSlotBetterOrEqual(arrSup: number[], arrSub: number[]): boolean {
+  // 1. 计算非0个数
+  const countSup = arrSup.filter((n) => n > 0).length;
+  const countSub = arrSub.filter((n) => n > 0).length;
+
+  // 规则：如果非0个数不同，则不能对比，互不支配
+  if (countSup !== countSub) {
+    return false;
+  }
+
+  // 规则：逐位比较 (前提是数组已降序，用户保证)
+  // 因为是固定长度数组比较，长度通常为3
+  const len = Math.max(arrSup.length, arrSub.length);
+  for (let i = 0; i < len; i++) {
+    const vSup = arrSup[i] || 0;
+    const vSub = arrSub[i] || 0;
+
+    if (vSup < vSub) {
+      return false; // 只要有一位弱，就不能支配
+    }
+  }
+
+  return true; // 所有位都 >=
 }
