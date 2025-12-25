@@ -16,6 +16,8 @@ export default {
   strictModeOption1: '启用',
   strictModeOption2: '禁用',
   strictModeSwitchTip: '建议在选择 >= 3 个技能时启用。选择 < 3 个技能时将自动禁用。',
+  enableFilterSwitch: '启用帕累托最优过滤',
+  enableFilterSwitchTip: '启用后，将根据帕累托最优过滤算法过滤护石，只保留最优的护石。',
   searchBtn: '搜索',
   resultsTitle: '搜索结果',
   resultsTitleCount: `总计：`,

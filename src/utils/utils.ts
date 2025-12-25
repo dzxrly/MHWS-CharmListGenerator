@@ -11,6 +11,7 @@ import type { Amulet, AmuletItem } from 'src/interface/amulet';
  * @param {SelectedSkill[]} selectedSkills 已选技能集合,空数组时返回空结果。
  * @param {boolean} strictMode 是否启用同时包含全部已选技能的模式。
  * @param {number} [maxNumber=5000] 返回结果的最大数量上限。
+ * @param {boolean} [enableFilter=false] 是否启用帕累托最优过滤。
  * @returns {Promise<AmuletItem[]>} 生成的护石条目列表。
  */
 function generateAmuletList(
@@ -19,6 +20,7 @@ function generateAmuletList(
   selectedSkills: SelectedSkill[],
   strictMode: boolean,
   maxNumber: number = 5000,
+  enableFilter: boolean = false,
 ): Promise<AmuletItem[]> {
   return new Promise((resolve, reject) => {
     if (selectedSkills.length === 0) {
@@ -36,6 +38,7 @@ function generateAmuletList(
       selectedSkills: JSON.parse(JSON.stringify(selectedSkills)),
       strictMode,
       maxNumber,
+      enableFilter,
     });
 
     worker.onmessage = (e: MessageEvent) => {

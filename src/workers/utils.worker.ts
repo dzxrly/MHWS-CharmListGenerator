@@ -6,9 +6,10 @@ import type {
   AmuletSlot,
   AmuletWithSkillPool,
 } from 'src/interface/amulet';
+import { filterBestAmulets } from 'src/utils/pareto-optimal-filtering';
 
 self.onmessage = (e: MessageEvent) => {
-  const { skillPool, amuletPool, selectedSkills, strictMode, maxNumber } = e.data;
+  const { skillPool, amuletPool, selectedSkills, strictMode, maxNumber, enableFilter } = e.data;
 
   try {
     const result = calculateAmuletList(
@@ -17,6 +18,7 @@ self.onmessage = (e: MessageEvent) => {
       selectedSkills,
       strictMode,
       maxNumber,
+      enableFilter,
     );
     self.postMessage({ success: true, data: result });
   } catch (error) {
@@ -109,6 +111,7 @@ function calculateAmuletList(
   selectedSkills: SelectedSkill[],
   strictMode: boolean,
   maxNumber: number,
+  enableFilter: boolean = true,
 ): AmuletItem[] {
   if (selectedSkills.length === 0) {
     throw new Error('No skills selected');
@@ -210,6 +213,10 @@ function calculateAmuletList(
   });
 
   finalResult.sort((a, b) => getRareLevel(b.rare) - getRareLevel(a.rare));
+
+  if (enableFilter) {
+    return filterBestAmulets(finalResult);
+  }
 
   return finalResult;
 }

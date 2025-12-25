@@ -29,7 +29,11 @@ const strictModeOptions = [
   { label: t('strictModeOption1'), value: true },
   { label: t('strictModeOption2'), value: false },
 ];
-
+const enableFilter = ref(false);
+const enableFilterOptions = [
+  { label: t('strictModeOption1'), value: true },
+  { label: t('strictModeOption2'), value: false },
+];
 const isLtMd = computed(() => $q.screen.lt.md);
 const languageCode = computed(() => local.locale.value);
 const isSelected = computed(() => selectedSkills.value.some((skill) => skill.selected));
@@ -156,6 +160,7 @@ function searchAmuletList() {
     selectedSkills.value.filter((skill) => skill.selected),
     strictMode.value,
     maxNumber.value,
+    enableFilter.value,
   )
     .then((data: AmuletItem[]) => {
       searching.value = false;
@@ -200,9 +205,11 @@ watch(
   (newVal, oldValue) => {
     if (newVal < 3 && oldValue >= 3) {
       strictMode.value = false;
+      enableFilter.value = false;
     }
     if (newVal >= 3 && oldValue < 3) {
       strictMode.value = true;
+      enableFilter.value = true;
     }
   },
 );
@@ -331,6 +338,31 @@ watch(
         :class="{ 'q-mt-sm': isLtMd }"
       >
         <span>{{ t('strictModeSwitchTip') }}</span>
+      </div>
+      <div class="row justify-between items-center full-width q-mt-md">
+        <span
+          class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-body1"
+          :class="{ 'text-center q-mb-sm': isLtMd }"
+          >{{ t('enableFilterSwitch') }}</span
+        >
+        <q-select
+          class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+          v-model="enableFilter"
+          :options="enableFilterOptions"
+          outlined
+          rounded
+          emit-value
+          map-options
+          :dense="isLtMd"
+          :disable="selectedSkillsCountLess3"
+          color="primary"
+        />
+      </div>
+      <div
+        class="row justify-start items-center full-width text-subtitle2 text-grey-8"
+        :class="{ 'q-mt-sm': isLtMd }"
+      >
+        <span>{{ t('enableFilterSwitchTip') }}</span>
       </div>
       <div class="row justify-center items-center full-width q-mt-md">
         <q-btn

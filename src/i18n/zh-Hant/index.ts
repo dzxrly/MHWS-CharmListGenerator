@@ -16,6 +16,8 @@ export default {
   strictModeOption1: '啟用',
   strictModeOption2: '停用',
   strictModeSwitchTip: '建議在選擇 >= 3 個技能時啟用。選擇 < 3 個技能時將自動停用。',
+  enableFilterSwitch: '啟用帕累托最優過濾',
+  enableFilterSwitchTip: '啟用後，將根據帕累托最優過濾算法過濾護石，只保留最優的護石。',
   searchBtn: '搜尋',
   resultsTitle: '搜尋結果',
   resultsTitleCount: `總計：`,

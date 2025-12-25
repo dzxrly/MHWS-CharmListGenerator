@@ -18,6 +18,9 @@ export default {
   strictModeOption2: 'Disable',
   strictModeSwitchTip:
     'Recommended to enable when selecting >= 3 skills. When < 3, it will be disabled automatically.',
+  enableFilterSwitch: 'Enable Pareto Optimal Filtering',
+  enableFilterSwitchTip:
+    'Enable this option to filter amulets using the Pareto Optimal Filtering algorithm, keeping only the best amulets.',
   searchBtn: 'Search',
   resultsTitle: 'Search Results',
   resultsTitleCount: `Total count: `,
