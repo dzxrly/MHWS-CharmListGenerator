@@ -9,7 +9,7 @@ import type {
 import { filterBestAmulets } from 'src/utils/pareto-optimal-filtering';
 
 self.onmessage = (e: MessageEvent) => {
-  const { skillPool, amuletPool, selectedSkills, strictMode, maxNumber, enableFilter } = e.data;
+  const { skillPool, amuletPool, selectedSkills, strictMode, enableFilter } = e.data;
 
   try {
     const result = calculateAmuletList(
@@ -17,7 +17,6 @@ self.onmessage = (e: MessageEvent) => {
       amuletPool,
       selectedSkills,
       strictMode,
-      maxNumber,
       enableFilter,
     );
     self.postMessage({ success: true, data: result });
@@ -110,14 +109,13 @@ function calculateAmuletList(
   amuletPool: Amulet[],
   selectedSkills: SelectedSkill[],
   strictMode: boolean,
-  maxNumber: number,
   enableFilter: boolean = true,
 ): AmuletItem[] {
   if (selectedSkills.length === 0) {
     throw new Error('No skills selected');
   }
 
-  let amuletPoolWithSkillPool = filterAmuletBySelectedSkills(
+  const amuletPoolWithSkillPool = filterAmuletBySelectedSkills(
     skillPool,
     amuletPool,
     selectedSkills,
@@ -143,7 +141,6 @@ function calculateAmuletList(
 
     return bCount - aCount;
   });
-  amuletPoolWithSkillPool = amuletPoolWithSkillPool.slice(0, maxNumber);
 
   const result: AmuletItem[] = [];
   amuletPoolWithSkillPool.forEach((amuletWithSkillPool: AmuletWithSkillPool) => {

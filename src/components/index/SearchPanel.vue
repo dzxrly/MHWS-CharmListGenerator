@@ -23,7 +23,6 @@ const searching = ref(false);
 const selectedSkills = ref<SelectedSkill[]>([]);
 const tipsStickyProbe = ref<HTMLElement | null>(null);
 const isTipsSticky = ref(false);
-const maxNumber = ref(5000);
 const strictMode = ref(false);
 const strictModeOptions = [
   { label: t('strictModeOption1'), value: true },
@@ -159,7 +158,7 @@ function searchAmuletList() {
     amuletPoolList.value,
     selectedSkills.value.filter((skill) => skill.selected),
     strictMode.value,
-    maxNumber.value,
+    // maxNumber.value,
     enableFilter.value,
   )
     .then((data: AmuletItem[]) => {
@@ -280,41 +279,6 @@ watch(
       :class="isLtMd ? 'q-px-md' : 'q-px-xl'"
     >
       <div class="row justify-between items-center full-width">
-        <span
-          class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-body1"
-          :class="{ 'text-center q-mb-sm': isLtMd }"
-          >{{ t('maxNumberInput') }}</span
-        >
-        <q-input
-          class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
-          v-model.number="maxNumber"
-          outlined
-          rounded
-          :dense="isLtMd"
-          color="primary"
-        >
-          <template v-slot:append>
-            <q-btn no-caps no-wrap flat round icon="add" @click="maxNumber += 100" />
-          </template>
-          <template v-slot:prepend>
-            <q-btn
-              no-caps
-              no-wrap
-              flat
-              round
-              icon="remove"
-              @click="maxNumber = Math.max(100, maxNumber - 100)"
-            />
-          </template>
-        </q-input>
-      </div>
-      <div
-        class="row justify-start items-center full-width text-subtitle2 text-grey-8"
-        :class="{ 'q-mt-sm': isLtMd }"
-      >
-        <span>{{ t('maxNumberInputToolTip') }}</span>
-      </div>
-      <div class="row justify-between items-center full-width q-mt-md">
         <span
           class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-body1"
           :class="{ 'text-center q-mb-sm': isLtMd }"
