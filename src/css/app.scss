@@ -1,1 +1,7 @@
 // app global css in SCSS form
+
+// Heading text class using secondary (brown) for readability on light backgrounds
+// Since primary (#FDB804) is too light for text on white, use secondary for section titles
+.text-heading {
+  color: $secondary;
+}

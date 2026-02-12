@@ -23,7 +23,7 @@ const isLtMd = computed(() => $q.screen.lt.md);
       class="title-block full-width column justify-center items-start bg-white rounded-borders q-pa-md"
     >
       <div
-        class="row justify-start items-center full-width text-primary"
+        class="row justify-start items-center full-width text-heading"
         :class="isLtMd ? 'text-body1 text-bold' : 'text-h6'"
       >
         <q-icon name="construction" />
@@ -35,7 +35,7 @@ const isLtMd = computed(() => $q.screen.lt.md);
       >
         <span>{{ t('description') }}</span>
         <q-btn
-          color="primary"
+          color="secondary"
           href="https://mhwilds.wiki-db.com/sim/"
           target="_blank"
           flat

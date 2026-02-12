@@ -70,7 +70,7 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
 
 <template>
   <div class="column justify-start items-center full-width">
-    <div class="row justify-between items-center full-width text-primary q-px-md q-pt-md">
+    <div class="row justify-between items-center full-width text-heading q-px-md q-pt-md">
       <div
         class="row justify-start items-center"
         :class="isLtMd ? 'text-body1 text-bold' : 'text-h6'"
@@ -111,7 +111,7 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
           no-caps
           no-wrap
           class="full-width"
-          color="primary"
+          color="secondary"
           outline
           rounded
           icon="file_copy"
@@ -128,7 +128,7 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
           no-caps
           no-wrap
           class="full-width"
-          color="primary"
+          color="secondary"
           outline
           rounded
           icon="download"
@@ -149,7 +149,7 @@ function downloadAsTxtFile(resList: AmuletItem[]) {
               <q-btn
                 no-caps
                 no-wrap
-                color="primary"
+                color="secondary"
                 flat
                 :rounded="!isLtMd"
                 :round="isLtMd"

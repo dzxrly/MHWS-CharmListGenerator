@@ -48,13 +48,13 @@ const tipsBoxShadow = computed(() => {
     : '0px 0px 0px 0px';
 });
 const tipsBgColorWithBlurSupport = computed(() => {
-  return isTipsSticky.value ? 'rgba(238,238,238,0.7)' : 'rgba(25,118,210,1)';
+  return isTipsSticky.value ? 'rgba(255,248,225,0.85)' : 'rgba(253,184,4,1)';
 });
 const tipsBgColor = computed(() => {
-  return isTipsSticky.value ? 'rgba(238,238,238,1)' : 'rgba(25,118,210,1)';
+  return isTipsSticky.value ? 'rgba(255,248,225,1)' : 'rgba(253,184,4,1)';
 });
 const tipsTextColor = computed(() => {
-  return isTipsSticky.value ? '#1976d2' : '#FFFFFF';
+  return isTipsSticky.value ? '#5D4037' : '#3E2723';
 });
 
 function fetchSkillPools() {
@@ -217,7 +217,7 @@ watch(
 <template>
   <div class="search-panel-wrapper column justify-start items-start full-width">
     <div
-      class="row justify-start items-center full-width text-primary q-px-md q-pt-md"
+      class="row justify-start items-center full-width text-heading q-px-md q-pt-md"
       :class="[isLtMd ? 'text-body1 text-bold' : 'text-h6', isSelected ? 'q-mb-md' : '']"
     >
       <q-icon name="list_alt" />
@@ -246,7 +246,7 @@ watch(
           <q-chip
             class="q-ml-sm"
             :color="isTipsSticky ? 'primary' : 'white'"
-            :text-color="isTipsSticky ? 'white' : 'primary'"
+            :text-color="isTipsSticky ? 'dark' : 'secondary'"
             removable
             @remove="skill.selected = false"
           >
@@ -267,7 +267,7 @@ watch(
               class="full-width non-selectable"
               v-model="skill.selected"
               :label="skill.skillName"
-              color="primary"
+              color="secondary"
             />
           </div>
         </div>
@@ -294,7 +294,7 @@ watch(
           map-options
           :dense="isLtMd"
           :disable="selectedSkillsCountLess3"
-          color="primary"
+          color="secondary"
         />
       </div>
       <div
@@ -319,7 +319,7 @@ watch(
           map-options
           :dense="isLtMd"
           :disable="selectedSkillsCountLess3"
-          color="primary"
+          color="secondary"
         />
       </div>
       <div
@@ -335,7 +335,8 @@ watch(
           class="full-width"
           :label="t('searchBtn')"
           color="primary"
-          outline
+          text-color="dark"
+          unelevated
           rounded
           :disable="!isSelected || searching"
           @click="searchAmuletList"
@@ -363,9 +364,9 @@ watch(
         -webkit-backdrop-filter: blur(5px)
 
   .checkbox-wrapper
-    background-color: rgba($primary, 0)
+    background-color: rgba($secondary, 0)
     transition: all 0.3s ease-in-out
 
   .checkbox-wrapper:hover
-    background-color: rgba($primary, 0.1)
+    background-color: rgba($secondary, 0.08)
 </style>
