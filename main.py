@@ -32,6 +32,9 @@ APP_EQUIP_DEF_ACCESSORY_TYPE_FIXED = {
     "MAX": "-1621790336",
 }
 
+# 为了避免报错临时添加，目前这里面的数值在AmuletData.json中不存在
+IGNORED_AMULET_TYPE = [-398465920]
+
 OUTPUT_DIR = "output"
 
 
@@ -185,13 +188,17 @@ def read_amulet_pool_json(
 
     _json_data = []
     for _amulet_pool in _loaded_amulet_pool:
-        _info = {
-            "id": str(_amulet_pool["fields"]["_Index"]),
-            "rare": get_amulet_rare_by_id(
-                _amulet_pool["fields"]["_AmuletType"]["value"]["fields"]["_Value"]
-            ),
-            "slot": get_slot_config_by_pt(_amulet_pool["fields"]["_SlotPt"]),
-        }
+        if (
+            _amulet_pool["fields"]["_AmuletType"]["value"]["fields"]["_Value"]
+            not in IGNORED_AMULET_TYPE
+        ):
+            _info = {
+                "id": str(_amulet_pool["fields"]["_Index"]),
+                "rare": get_amulet_rare_by_id(
+                    _amulet_pool["fields"]["_AmuletType"]["value"]["fields"]["_Value"]
+                ),
+                "slot": get_slot_config_by_pt(_amulet_pool["fields"]["_SlotPt"]),
+            }
         _pt_idx = 1
         for _key in _amulet_pool["fields"].keys():
             if _key.startswith("_SkillPt_"):
